@@ -1,42 +1,36 @@
 <template>
-  <div class="button-container">
-    <q-btn
-      :disable="$i18n.locale === 'en-US'"
-      round
-      color="white"
-      class="button"
-      @click="setLanguage(enLang)"
-    >
-      <img class="image" src="../assets/en.svg" />
-    </q-btn>
-    <q-btn
-      :disable="$i18n.locale === 'de'"
-      round
-      color="white"
-      class="button"
-      @click="setLanguage(deLang)"
-    >
-      <img class="image" src="../assets/de.svg" />
-    </q-btn>
-    <q-btn
-      :disable="$i18n.locale === 'es'"
-      round
-      color="white"
-      class="button"
-      @click="setLanguage(esLang)"
-    >
-      <img class="image" src="../assets/es.svg" />
-    </q-btn>
+  <div class="buttons-container">
+    <img
+      class="image image-es"
+      src="../assets/es.svg"
+      @click="setLanguage('es')"
+    />
+    <img
+      class="image image-de"
+      src="../assets/de.svg"
+      @click="setLanguage('de')"
+    />
+    <img
+      class="image image-en-US"
+      src="../assets/en.svg"
+      @click="setLanguage('en-US')"
+    />
   </div>
 </template>
 
 <style lang="scss">
-.image,
-.button {
+.image {
   height: 50px;
   min-width: 50px;
+  padding: 5px;
 }
-.button-container {
+.image:hover {
+  filter: brightness(100%);
+  -webkit-filter: brightness(120%);
+}
+.buttons-container {
+  height: 50px;
+  min-width: 50px;
   display: flex;
   justify-content: space-between;
   width: 150px;
@@ -48,36 +42,32 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   methods: {
-    setLanguage(lang: any) {
-      this.lang = lang;
+    setLanguage(lang: string) {
+      const curLang = this.languages[lang as keyof typeof this.languages];
+      this.$i18n.locale = curLang.value;
+      import(`quasar/lang/${curLang.value}`).then((language) => {
+        this.$q.lang.set(language.default);
+      });
     },
   },
   name: 'LanguageSelector',
   data() {
     return {
-      esLang: {
-        label: 'Español',
-        value: 'es',
+      languages: {
+        es: {
+          label: 'Español',
+          value: 'es',
+        },
+        de: {
+          label: 'German',
+          value: 'de',
+        },
+        'en-US': {
+          label: 'English',
+          value: 'en-US',
+        },
       },
-      deLang: {
-        label: 'German',
-        value: 'de',
-      },
-      enLang: {
-        label: 'English',
-        value: 'en-US',
-      },
-      lang: this.$i18n.locale,
     };
-  },
-  watch: {
-    lang(lang) {
-      this.$i18n.locale = lang.value;
-      // set quasar's language too!!
-      import(`quasar/lang/${lang.value}`).then((language) => {
-        this.$q.lang.set(language.default);
-      });
-    },
   },
 });
 </script>

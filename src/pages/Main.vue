@@ -2,16 +2,16 @@
   <q-page class="row items-center justify-evenly">
     <div>
       <div class="our-story-container">
-        <OurStory></OurStory>
+        <BasicView componentName="ourStoryView"></BasicView>
       </div>
       <div class="details-container">
-        <DetailsView></DetailsView>
+        <BasicView componentName="detailsView"></BasicView>
       </div>
       <div class="photos-container">
-        <PhotosView></PhotosView>
+        <BasicView componentName="photosView"></BasicView>
       </div>
       <div class="rsvp-container">
-        <RSVP></RSVP>
+        <BasicView componentName="rsvpView"></BasicView>
       </div>
     </div>
   </q-page>
@@ -19,16 +19,10 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import OurStory from './OurStory.vue';
-import DetailsView from './DetailsView.vue';
-import PhotosView from './PhotosView.vue';
-import RSVP from './RSVP.vue';
+import BasicView from './BasicView.vue';
 
 export default defineComponent({
   name: 'IndexPage',
-  data() {
-    return {};
-  },
   watch: {
     lang(lang) {
       this.$i18n.locale = lang.value;
@@ -38,6 +32,6 @@ export default defineComponent({
       });
     },
   },
-  components: { OurStory, DetailsView, PhotosView, RSVP },
+  components: { BasicView },
 });
 </script>

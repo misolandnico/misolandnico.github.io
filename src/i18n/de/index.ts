@@ -1,5 +1,5 @@
 export default {
-  ourStory: {
+  ourStoryView: {
     title: 'Unsere Geschichte',
     picture: '../assets/unsere-geschichte.svg',
     content:

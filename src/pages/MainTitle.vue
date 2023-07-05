@@ -35,11 +35,13 @@ import LanguageSelector from '../components/LanguageSelector.vue';
 
 export default defineComponent({
   name: 'MainTitle',
+
   setup() {
     const weddingDate = new Date('14 December 2024');
     console.log(weddingDate);
     return { weddingDate };
   },
+
   watch: {
     lang(lang) {
       this.$i18n.locale = lang.value;

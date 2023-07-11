@@ -26,7 +26,7 @@
   transition: background-color 2s ease-out;
 }
 .change_color {
-  background-color: rgba(15, 118, 210, 0.4) !important;
+  background-color: rgba(255, 0, 0, 0.4) !important;
 }
 </style>
 

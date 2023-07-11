@@ -19,7 +19,7 @@
 <script type="ts">
 import { defineComponent } from 'vue';
 export default defineComponent({
-  name: 'OurStoryPage',
+  name: 'BasicView',
   props: ['componentName']
 })
 </script>

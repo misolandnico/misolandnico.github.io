@@ -4,8 +4,14 @@
       <div class="our-story-container">
         <BasicView componentName="ourStoryView"></BasicView>
       </div>
+      <div>
+        <ImageView imageName="Oktoberfest.jpg"></ImageView>
+      </div>
       <div class="details-container">
         <BasicView componentName="detailsView"></BasicView>
+      </div>
+      <div>
+        <ImageView imageName="Oktoberfest.jpg"></ImageView>
       </div>
       <div class="photos-container">
         <BasicView componentName="photosView"></BasicView>
@@ -20,6 +26,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import BasicView from './BasicView.vue';
+import ImageView from './ImageView.vue';
 
 export default defineComponent({
   name: 'IndexPage',
@@ -32,6 +39,6 @@ export default defineComponent({
       });
     },
   },
-  components: { BasicView },
+  components: { BasicView, ImageView },
 });
 </script>

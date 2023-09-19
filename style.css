@@ -24,10 +24,6 @@ body {
   overflow-y: scroll;
 }
 
-.logo {
-  height: 70px;
-}
-
 .language-switcher-button {
   width: 50px;
 }
@@ -46,8 +42,7 @@ header {
 }
 
 header nav {
-  max-width: 1400px;
-  margin: 0 auto;
+  margin: 1vh auto;
   padding: 0 3rem;
   display: flex;
   justify-content: space-between;
@@ -70,19 +65,10 @@ header ul li {
   background-size: cover;
 }
 
-.image.fixed {
-  background-attachment: fixed;
-}
-
-.image.proposal {
-  background-image: url("assets/images/parallax/proposal.jpg");
-  min-height: 100vh;
-}
-
 .static {
   background: rgba(255, 0, 0, 1);
   padding: 65px 0;
-  transform-style: preserve-3d;
+  background-attachment: fixed;
 }
 
 .headline {
@@ -98,47 +84,62 @@ header ul li {
   min-height: 100vh;
   width: 100%;
   height: 100%;
-  background: url("assets/images/parallax/picture1-2.jpg") bottom center;
+  background-image: url("assets/images/parallax/picture1.jpg");
+  background-position: 43% 30%;
   background-size: cover;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+}
+
+.headline-text-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 60%;
+  height: 100%;
 }
 
 .headline-text {
   width: 100%;
   height: 100%;
-  background: url("assets/images/parallax/picture1-3.png") bottom center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url("assets/images/parallax/picture1-2.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: initial;
 }
 
 .second-image {
   padding: 0 0 10px;
   background-color: #fff;
   justify-content: space-around;
-  min-height: 100vh;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 0.8;
   display: flex;
-}
-
-.image14 {
-  background: url("assets/images/parallax/picture2-1.jpg") center;
-}
-
-.image12 {
-  background: url("assets/images/parallax/picture2-2.jpg") center;
-}
-
-.image24 {
-  background: url("assets/images/parallax/picture2-3.jpg") center;
 }
 
 .three-images {
   margin: 10px;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: initial;
   width: 33.33%;
-  height: 100%;
+  height: 98%;
+}
+
+.image14 {
+  background-image: url("assets/images/parallax/picture2-1.jpg");
+  background-position: 45%;
+}
+
+.image12 {
+  background-image: url("assets/images/parallax/picture2-2.jpg");
+  background-position: 45%;
+}
+
+.image24 {
+  background-image: url("assets/images/parallax/picture2-3.jpg");
+  background-position: 50%;
 }
 
 a.register-button {
@@ -164,7 +165,8 @@ a.register-button .register-button-icon {
 }
 
 a.register-button-big {
-  width: 300px;
+  position: absolute;
+  width: 320px;
   display: flex;
   justify-content: space-around;
   text-decoration: none;
@@ -177,7 +179,12 @@ a.register-button-big {
   color: #ffffff;
   padding: 10px;
   border-radius: 30px;
-  font-size: 60px;
+  font-size: 40px;
+  bottom: 10vh;
+  z-index: 10;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 a.register-button-big .register-button-icon {
@@ -226,7 +233,7 @@ a.register-button-big .register-button-icon {
 }
 
 .rsvp-section .text-section {
-  padding: 130px 35px;
+  padding: 20vh 35px;
   text-align: center;
   position: absolute;
   float: left;
@@ -239,14 +246,13 @@ a.register-button-big .register-button-icon {
   font-family: Vollkorn, serif;
   font-size: 38px;
   margin: 10px;
-  padding-bottom: 60px;
 }
 
 .image-section {
-  width: 60%;
+  width: 55%;
   height: 100%;
   position: absolute;
-  left: 40%;
+  left: 45%;
   background-image: linear-gradient(
       270deg,
       rgba(255, 255, 255, 0) 0%,
@@ -256,7 +262,7 @@ a.register-button-big .register-button-icon {
     url("assets/images/parallax/picture3.jpg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 
 a {
@@ -270,13 +276,12 @@ a {
 #map {
   margin: auto;
   height: 50vh;
-  width: 50%;
+  width: 60%;
 }
 
 .accomodations {
   background-color: #24354b;
   color: #fff;
-  height: 100vh;
   padding: 65px 0;
 }
 
@@ -290,4 +295,37 @@ a {
   margin: auto;
   width: 70%;
   line-height: 26px;
+}
+
+@media (max-width: 550px) {
+  .language-switcher-button {
+    width: 40px;
+  }
+
+  header ul li {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .the-wedding .text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .the-wedding .text {
+    font-size: 20px;
+  }
+}
+
+@media (orientation: portrait) {
+  .headline-text-container {
+    width: 100%;
+    top: 20%;
+  }
+
+  #map {
+    width: 100%;
+  }
 }

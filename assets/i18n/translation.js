@@ -64,6 +64,8 @@ let languageContent = {
     "where-to-stay-headline": "Where to stay?",
     "where-to-stay-text":
       "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.",
+    "rsvp-text": "Register here",
+    "rsvp-text-big": "Register here",
   },
   de: {
     "our-story-headline": "Unsere Geschichte",
@@ -77,6 +79,8 @@ let languageContent = {
     "how-to-get-to-the-venue-text": "How to get to the venue text",
     "where-to-stay-headline": "Where to stay?",
     "where-to-stay-text": "Where to stay text",
+    "rsvp-text": "Register here",
+    "rsvp-text-big": "Register here",
   },
   es: {
     "our-story-headline": "Nuestra historia",
@@ -90,5 +94,7 @@ let languageContent = {
     "how-to-get-to-the-venue-text": "How to get to the venue text",
     "where-to-stay-headline": "Where to stay?",
     "where-to-stay-text": "Where to stay text",
+    "rsvp-text": "Register here",
+    "rsvp-text-big": "Register here",
   },
 };

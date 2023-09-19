@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="assets/i18n/translation.js"></script>
+    <script src="js/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/favicon/favicon.png"
+    />
+    <title>Misol & Nico</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <a
+          id="rsvp-form"
+          class="register-button"
+          href="https://misolandnico.anrsvp.com/en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="register-button-icon"
+            src="assets/images/icon/register.png"
+          />
+          <div class="register-button-text">RSVP</div>
+        </a>
+        <ul>
+          <li>
+            <img
+              class="language-switcher-button"
+              onclick="changeLanguage('en')"
+              src="assets/images/flags/en.svg"
+            />
+          </li>
+          <li>
+            <img
+              class="language-switcher-button"
+              onclick="changeLanguage('de')"
+              src="assets/images/flags/de.svg"
+            />
+          </li>
+          <li>
+            <img
+              class="language-switcher-button"
+              onclick="changeLanguage('es')"
+              src="assets/images/flags/es.svg"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="headline-image">
+      <div class="headline-text"></div>
+    </div>
+
+    <div class="static our-story">
+      <div class="headline" id="our-story-headline"></div>
+      <div class="text" id="our-story-text"></div>
+    </div>
+
+    <div class="second-image">
+      <div class="three-images image14"></div>
+      <div class="three-images image12"></div>
+      <div class="three-images image24"></div>
+    </div>
+
+    <div class="static the-wedding">
+      <div class="headline" id="the-wedding-headline"></div>
+      <div class="text date-place-container">
+        <div id="date-container-long"></div>
+      </div>
+      <div class="text" id="address-text"></div>
+      <div class="text">
+        <a
+          href="https://haciendasantaluciakantoyna.com/"
+          class="link location-kantoyna"
+          id="location-kantoyna"
+        ></a>
+      </div>
+      <div class="map">
+        <div id="map"></div>
+        <script>
+          var map = L.map("map").setView(
+            [21.110793770420248, -89.5212690505211],
+            13
+          );
+          var marker = L.marker([21.110793770420248, -89.5212690505211]).addTo(
+            map
+          );
+          L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 19,
+            attribution:
+              '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          }).addTo(map);
+        </script>
+      </div>
+    </div>
+
+    <div class="rsvp-section">
+      <div class="text-section">
+        <div class="rsvp-section-text" id="rsvp-section-text"></div>
+        <a
+          id="rsvp-form"
+          class="register-button-big"
+          href="https://misolandnico.anrsvp.com/en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="register-button-icon"
+            src="assets/images/icon/register.png"
+          />
+          <div class="register-button-text">RSVP</div>
+        </a>
+      </div>
+      <div class="image-section"></div>
+    </div>
+    <div class="accomodations">
+      <div class="how-to-get-to-the-venue">
+        <div class="headline" id="how-to-get-to-the-venue-headline"></div>
+        <div class="text" id="how-to-get-to-the-venue-text"></div>
+      </div>
+      <div class="where-to-stay">
+        <div class="headline" id="where-to-stay-headline"></div>
+        <div class="text" id="where-to-stay-text"></div>
+      </div>
+      <div class="bottom-image"></div>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 window.onscroll = function () {
   scrollFunction();
+  console.log("scrolling");
 };
 
 function scrollFunction() {

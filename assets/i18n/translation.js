@@ -53,19 +53,25 @@ let languageContent = {
   en: {
     "our-story-headline": "Our Story",
     "our-story-text":
-      " Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Proin sed lorem euismod purus ultricies mollis. Integer mi libero, auctor vitae dapibus nec, viverra aliquet sem. Morbi eget urna sollicitudin, vestibulum nisi quis, iaculis justo. Suspendisse non urna bibendum, imperdiet augue non, cursus elit. Donec elit lacus, commodo vitae blandit et, gravida vitae felis. Morbi sit amet sapien ut lorem vehicula viverra at ut leo. Cras quis sagittis risus. Donec semper mauris suscipit, egestas nisi sit amet, suscipit nisi. Vivamus eu nulla a augue eleifend vulputate at ac magna.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ligula consectetur, consectetur mi in, interdum nibh. Donec est dolor, ornare in felis ac, tempor scelerisque massa. Nam dictum dolor convallis, finibus risus vel, sollicitudin ex. Phasellus posuere mattis semper. Fusce et bibendum elit. Integer pharetra arcu non dolor consectetur gravida. Donec posuere aliquet sem, in varius ipsum viverra nec. Proin rhoncus bibendum dui non semper. Aenean eu justo egestas, fringilla lacus eu, sagittis augue. Etiam sit amet lorem imperdiet, ultricies ligula ac, gravida mauris. Nunc et diam lorem. Nam est dolor, ultricies non egestas et, semper ut felis. Nullam posuere rutrum diam, et sodales ex condimentum quis.<br />Pellentesque et ligula sollicitudin, consectetur ante quis, pellentesque tortor. Nullam non neque arcu. Nunc consequat lacinia tortor, ac dictum tortor commodo ac. Nunc quis dictum dolor. Etiam ut nibh dapibus, vestibulum augue condimentum, interdum est. Fusce semper, leo eu blandit iaculis, massa risus ullamcorper orci, non pellentesque ante tellus vitae justo. Nullam porttitor arcu vitae lacus euismod, luctus commodo erat blandit.",
+      "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Proin sed lorem euismod purus ultricies mollis. Integer mi libero, auctor vitae dapibus nec, viverra aliquet sem. Morbi eget urna sollicitudin, vestibulum nisi quis, iaculis justo. Suspendisse non urna bibendum, imperdiet augue non, cursus elit. Donec elit lacus, commodo vitae blandit et, gravida vitae felis. Morbi sit amet sapien ut lorem vehicula viverra at ut leo. Cras quis sagittis risus. Donec semper mauris suscipit, egestas nisi sit amet, suscipit nisi. Vivamus eu nulla a augue eleifend vulputate at ac magna.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ligula consectetur, consectetur mi in, interdum nibh. Donec est dolor, ornare in felis ac, tempor scelerisque massa. Nam dictum dolor convallis, finibus risus vel, sollicitudin ex. Phasellus posuere mattis semper. Fusce et bibendum elit. Integer pharetra arcu non dolor consectetur gravida. Donec posuere aliquet sem, in varius ipsum viverra nec. Proin rhoncus bibendum dui non semper. Aenean eu justo egestas, fringilla lacus eu, sagittis augue. Etiam sit amet lorem imperdiet, ultricies ligula ac, gravida mauris. Nunc et diam lorem. Nam est dolor, ultricies non egestas et, semper ut felis. Nullam posuere rutrum diam, et sodales ex condimentum quis.<br />Pellentesque et ligula sollicitudin, consectetur ante quis, pellentesque tortor. Nullam non neque arcu. Nunc consequat lacinia tortor, ac dictum tortor commodo ac. Nunc quis dictum dolor. Etiam ut nibh dapibus, vestibulum augue condimentum, interdum est. Fusce semper, leo eu blandit iaculis, massa risus ullamcorper orci, non pellentesque ante tellus vitae justo. Nullam porttitor arcu vitae lacus euismod, luctus commodo erat blandit.",
     "the-wedding-headline": "The Wedding",
     "address-text": "Tablaje, 3610 Hacienda, 97347 Kantoyna, Yuc.",
     "location-kantoyna": "Hacienda Santa Lucía Kantoyna",
-    "rsvp-section-text": "To register please click here:",
-    "how-to-get-to-the-venue-headline": "How to get to the venue?",
-    "how-to-get-to-the-venue-text":
-      "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.",
-    "where-to-stay-headline": "Where to stay?",
-    "where-to-stay-text":
-      "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.",
-    "rsvp-text": "Register here",
-    "rsvp-text-big": "Register here",
+    "wedding-parking": "Parking available on site",
+    "wedding-dresscode": "Dresscode: Semi-formal",
+    "rsvp-section-text": "We can't await to welcome you to our wedding",
+    "visiting-text": "Visiting?",
+    "getting-there-headline": "Getting there",
+    "getting-there-text":
+      "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius.",
+    "hotel-recommendations-headline": "Hotel recommendations",
+    "hotel-recommendations-text":
+      "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue.<br/>Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius.",
+    "rsvp-text": "Are you in?",
+    "rsvp-text-big": "Are you in?",
+    "adventure-headline": "Want to join us on an adventure?",
+    "adventure-text":
+      "Maecenas eget lectus mauris. Donec in venenatis ipsum. Etiam mattis mattis varius. Quisque quis consequat augue. Proin sed lorem euismod purus ultricies mollis. Integer mi libero, auctor vitae dapibus nec, viverra aliquet sem. Morbi eget urna sollicitudin, vestibulum nisi quis, iaculis justo. Suspendisse non urna bibendum, imperdiet augue non, cursus elit. Donec elit lacus, commodo vitae blandit et, gravida vitae felis. Morbi sit amet sapien ut lorem vehicula viverra at ut leo. Cras quis sagittis risus. Donec semper mauris suscipit, egestas nisi sit amet, suscipit nisi. Vivamus eu nulla a augue eleifend vulputate at ac magna.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ligula consectetur, consectetur mi in, interdum nibh. Donec est dolor, ornare in felis ac, tempor scelerisque massa. Nam dictum dolor convallis, finibus risus vel, sollicitudin ex. Phasellus posuere mattis semper. Fusce et bibendum elit. Integer pharetra arcu non dolor consectetur gravida. Donec posuere aliquet sem, in varius ipsum viverra nec. Proin rhoncus bibendum dui non semper. Aenean eu justo egestas, fringilla lacus eu, sagittis augue. Etiam sit amet lorem imperdiet, ultricies ligula ac, gravida mauris. Nunc et diam lorem. Nam est dolor, ultricies non egestas et, semper ut felis. Nullam posuere rutrum diam, et sodales ex condimentum quis.<br />Pellentesque et ligula sollicitudin, consectetur ante quis, pellentesque tortor. Nullam non neque arcu. Nunc consequat lacinia tortor, ac dictum tortor commodo ac. Nunc quis dictum dolor. Etiam ut nibh dapibus, vestibulum augue condimentum, interdum est. Fusce semper, leo eu blandit iaculis, massa risus ullamcorper orci, non pellentesque ante tellus vitae justo. Nullam porttitor arcu vitae lacus euismod, luctus commodo erat blandit.",
   },
   de: {
     "our-story-headline": "Unsere Geschichte",
@@ -74,13 +80,12 @@ let languageContent = {
     "the-wedding-headline": "Die Hochzeit",
     "address-text": "Tablaje, 3610 Hacienda, 97347 Kantoyna, Yuc.",
     "location-kantoyna": "Hacienda Santa Lucía Kantoyna",
-    "rsvp-section-text": "",
-    "how-to-get-to-the-venue-headline": "How to get to the venue",
-    "how-to-get-to-the-venue-text": "How to get to the venue text",
-    "where-to-stay-headline": "Where to stay?",
-    "where-to-stay-text": "Where to stay text",
-    "rsvp-text": "Register here",
-    "rsvp-text-big": "Register here",
+    "rsvp-section-text":
+      "Wir können es kaum erwarten, dich auf unserer Hochzeit zu begrüßen",
+    "getting-there-headline": "How to get to the venue",
+    "getting-there-text": "How to get to the venue text",
+    "rsvp-text": "Bist du dabei?",
+    "rsvp-text-big": "Bist du dabei?",
   },
   es: {
     "our-story-headline": "Nuestra historia",
@@ -89,12 +94,10 @@ let languageContent = {
     "the-wedding-headline": "La Boda",
     "address-text": "Tablaje, 3610 Hacienda, 97347 Kantoyna, Yuc.",
     "location-kantoyna": "Hacienda Santa Lucía Kantoyna",
-    "rsvp-section-text": "",
-    "how-to-get-to-the-venue-headline": "How to get to the venue",
-    "how-to-get-to-the-venue-text": "How to get to the venue text",
-    "where-to-stay-headline": "Where to stay?",
-    "where-to-stay-text": "Where to stay text",
-    "rsvp-text": "Register here",
-    "rsvp-text-big": "Register here",
+    "rsvp-section-text": "Para registrarse por favor haga click aquí:",
+    "getting-there-headline": "How to get to the venue",
+    "getting-there-text": "How to get to the venue text",
+    "rsvp-text": "Confirma aquí",
+    "rsvp-text-big": "Confirma aquí",
   },
 };

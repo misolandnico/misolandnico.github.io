@@ -72,12 +72,22 @@ header ul li {
 }
 
 .headline {
+  width: 75%;
+  margin: auto;
   text-align: center;
   text-transform: uppercase;
   font-family: Homenaje, sans-serif;
   font-weight: bolder;
   font-size: 46px;
   padding-bottom: 15px;
+}
+
+.sub-headline {
+  text-transform: uppercase;
+  font-family: Vollkorn, serif;
+  font-weight: bolder;
+  font-size: 32px;
+  padding-bottom: 10px;
 }
 
 .headline-image {
@@ -145,7 +155,7 @@ header ul li {
 
 a.register-button {
   height: 50px;
-  width: 130px;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -226,6 +236,10 @@ a.register-button-big .register-button-icon {
   color: #fff;
 }
 
+.the-wedding .small {
+  font-size: 20px;
+}
+
 .rsvp-section {
   position: relative;
   background-color: #fff;
@@ -235,7 +249,7 @@ a.register-button-big .register-button-icon {
 
 .rsvp-section .text-section {
   padding: 20vh 35px;
-  text-align: center;
+  text-align: left;
   position: absolute;
   float: left;
   width: 40%;
@@ -249,7 +263,7 @@ a.register-button-big .register-button-icon {
   margin: 10px;
 }
 
-.image-section {
+.rsvp-section .image-section {
   width: 55%;
   height: 100%;
   position: absolute;
@@ -267,7 +281,7 @@ a.register-button-big .register-button-icon {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline dotted;
 }
 
 .map {
@@ -290,7 +304,15 @@ a {
 .accomodations .headline {
   margin: auto;
   width: 70%;
-  padding: 10px 0 15px;
+  padding: 1rem 0 2rem;
+}
+
+.accomodations-spacer {
+  width: 3%;
+}
+
+.sub-headline {
+  hyphens: auto;
 }
 
 .accomodations .text {
@@ -299,9 +321,112 @@ a {
   line-height: 26px;
 }
 
-@media (max-width: 400px) {
-  header nav {
-    padding: 0 1rem;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.picture-container {
+  width: 48%;
+  display: flex;
+}
+
+.text-container {
+  width: 30%;
+}
+
+.accomodations .picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.getting-there-picture {
+  object-position: 48%;
+}
+
+.hotel-recommendations-picture {
+  object-position: 35%;
+}
+
+.visiting-container .text-container .text {
+  width: 100%;
+}
+
+.adventure {
+  background-color: #ffffff;
+  color: #24354b;
+}
+
+.adventure .headline {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Homenaje, sans-serif;
+  font-weight: bolder;
+  font-size: 46px;
+  padding-bottom: 15px;
+}
+
+.adventure .text {
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  width: 70%;
+  margin: auto;
+  font-family: Mandali, serif;
+  color: #24354b;
+}
+
+@media (max-width: 900px) {
+  .flex-container {
+    display: grid;
+  }
+
+  .visiting-container {
+    display: block;
+  }
+
+  .visiting-container .picture-container {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .visiting-container .text-container {
+    width: 100%;
+  }
+
+  .hotel-recommendations-picture-container {
+    order: 1;
+  }
+
+  .hotel-recommendations-text-container {
+    order: 2;
+  }
+}
+
+@media (max-width: 770px) {
+  .the-wedding .text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  #rsvp-section-text {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .the-wedding .text {
+    font-size: 20px;
+  }
+
+  #rsvp-section-text {
+    font-size: 30px;
   }
 }
 
@@ -315,15 +440,15 @@ a {
   }
 }
 
-@media (max-width: 600px) {
-  .the-wedding .text {
-    font-size: 20px;
+@media (max-width: 500px) {
+  #rsvp-section-text {
+    font-size: 28px;
   }
 }
 
-@media (max-width: 770px) {
-  .the-wedding .text {
-    font-size: 30px;
+@media (max-width: 400px) {
+  header nav {
+    padding: 0 1rem;
   }
 }
 

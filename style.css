@@ -224,14 +224,6 @@ a.register-button-big .register-button-icon {
   color: #fff;
 }
 
-.the-wedding .text {
-  text-align: center;
-  font-family: Vollkorn, serif;
-  font-size: 38px;
-  margin: 10px;
-  color: #fff;
-}
-
 .the-wedding .location-kantoyna {
   color: #fff;
 }
@@ -355,14 +347,21 @@ a {
   width: 100%;
 }
 
-.adventure {
+.adventure-container {
   background-color: #ffffff;
   color: #24354b;
 }
 
-.adventure .headline {
-  width: 75%;
+.adventure {
+  width: 70%;
   margin: auto;
+}
+
+.adventure-list .sub-headline {
+  padding-top: 30px;
+}
+
+.adventure .headline {
   text-align: center;
   text-transform: uppercase;
   font-family: Homenaje, sans-serif;
@@ -371,11 +370,10 @@ a {
   padding-bottom: 15px;
 }
 
-.adventure .text {
+.adventure .mucuyche {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.2px;
-  width: 70%;
   margin: auto;
   font-family: Mandali, serif;
   color: #24354b;
@@ -408,12 +406,6 @@ a {
   }
 }
 
-@media (max-width: 770px) {
-  .the-wedding .text {
-    font-size: 30px;
-  }
-}
-
 @media (max-width: 700px) {
   #rsvp-section-text {
     font-size: 34px;
@@ -421,10 +413,6 @@ a {
 }
 
 @media (max-width: 600px) {
-  .the-wedding .text {
-    font-size: 20px;
-  }
-
   #rsvp-section-text {
     font-size: 30px;
   }
@@ -460,5 +448,204 @@ a {
 
   #map {
     width: 100%;
+  }
+}
+
+.timeline {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: #82965a;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 10px 30px 110px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 52px;
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #82965a;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: 59px;
+  right: 8px;
+  background: #82965a;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-family: Mandali, serif;
+  z-index: 1;
+}
+
+.container.left .date {
+  right: calc(-100% - 20px);
+  text-align: left;
+}
+
+.container.right .date {
+  left: calc(-100% - 20px);
+  text-align: right;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 10px;
+  background: #24354b;
+  /* border: 2px solid #82965a;
+  border-radius: 40px; */
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  z-index: 1;
+  width: auto;
+  height: 100px;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+  text-align: left;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: #f6d155;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #82965a;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.timeline-time {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 50%;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container .date {
+    width: auto;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after,
+  .container.right::after {
+    left: calc(50% - 8px);
+  }
+
+  .container.left::before,
+  .container.right::before {
+    display: none;
+    left: 100px;
+    border-color: transparent #82965a transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: calc(50% + 20px);
+  }
+
+  .container.right .date {
+    text-align: left;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: calc(50% - 120px);
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
   }
 }

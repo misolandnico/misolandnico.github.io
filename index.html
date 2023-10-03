@@ -90,38 +90,85 @@
 
     <div class="static the-wedding">
       <div class="headline" id="the-wedding-headline"></div>
-      <div class="text date-place-container">
+      <div class="timeline">
+        <div class="container left">
+          <div class="date">
+            <div id="ceremony-time" class="text timeline-time"></div>
+            <div id="ceremony-text" class="text timeline-text"></div>
+          </div>
+          <img class="icon" src="assets/images/icon/rings.png" />
+        </div>
+        <div class="container right">
+          <div class="date">
+            <div id="welcome-time" class="timeline-time"></div>
+            <div id="welcome-text" class="timeline-text"></div>
+          </div>
+          <img class="icon" src="assets/images/icon/cocktails.png" />
+        </div>
+        <div class="container left">
+          <div class="date">
+            <div id="first-dance-time" class="timeline-time"></div>
+            <div id="first-dance-text" class="timeline-text"></div>
+          </div>
+          <img class="icon" src="assets/images/icon/dance.png" />
+        </div>
+        <div class="container right">
+          <div class="date">
+            <div id="dinner-time" class="timeline-time"></div>
+            <div id="dinner-text" class="timeline-text"></div>
+          </div>
+          <img class="icon" src="assets/images/icon/food.png" />
+        </div>
+        <div class="container left">
+          <div class="date">
+            <div id="party-time" class="timeline-time"></div>
+            <div id="party-text" class="timeline-text"></div>
+          </div>
+          <img class="icon" src="assets/images/icon/disco.png" />
+        </div>
+      </div>
+
+      <!-- <div class="headline date-place-container">
         <div id="date-container-long"></div>
       </div>
-      <div class="text" id="address-text"></div>
-      <div class="text">
-        <a
-          href="https://haciendasantaluciakantoyna.com/"
-          class="link location-kantoyna"
-          id="location-kantoyna"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
+      <div class="ceremony">
+        <div id="time-container-ceremony"></div>
+        <div class="headline" id="ceremony-headline"></div>
+        <div class="text" id="ceremony-address"></div>
+        <div class="text" id="ceremony-church-name"></div>
       </div>
-      <div class="text small" id="wedding-parking"></div>
-      <div class="text small" id="wedding-dresscode"></div>
-      <div class="map">
-        <div id="map"></div>
-        <script>
-          var map = L.map("map").setView(
-            [21.110793770420248, -89.5212690505211],
-            13
-          );
-          var marker = L.marker([21.110793770420248, -89.5212690505211]).addTo(
-            map
-          );
-          L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            maxZoom: 19,
-            attribution:
-              '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-          }).addTo(map);
-        </script>
-      </div>
+      <div class="reception">
+        <div class="headline" id="the-wedding-headline"></div>
+        <div class="text" id="address-text"></div>
+        <div class="text">
+          <a
+            href="https://haciendasantaluciakantoyna.com/"
+            class="link location-kantoyna"
+            id="location-kantoyna"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+        </div>
+        <div class="text small" id="wedding-parking"></div>
+        <div class="text small" id="wedding-dresscode"></div>
+        <div class="map">
+          <div id="map"></div>
+          <script>
+            var map = L.map("map").setView(
+              [21.110793770420248, -89.5212690505211],
+              13
+            );
+            var marker = L.marker([
+              21.110793770420248, -89.5212690505211,
+            ]).addTo(map);
+            L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+              maxZoom: 19,
+              attribution:
+                '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            }).addTo(map);
+          </script>
+        </div>
+      </div> -->
     </div>
 
     <div class="rsvp-section">
@@ -179,9 +226,15 @@
       </div>
     </div>
 
-    <div class="static adventure">
-      <div class="headline" id="adventure-headline"></div>
-      <div class="text" id="adventure-text"></div>
+    <div class="static adventure-container">
+      <div class="adventure">
+        <div class="headline" id="trip-headline"></div>
+        <div class="text" id="trip-text"></div>
+        <div class="mucuyche adventure-list">
+          <div class="sub-headline" id="mucuyche-headline"></div>
+          <div class="text" id="mucuyche-text"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -213,7 +213,9 @@ a.register-button-big .register-button-icon {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.2px;
+  text-align: justify;
   width: 70%;
+  padding-bottom: 0.5rem;
   margin: auto;
   font-family: Mandali, serif;
   color: #24354b;
@@ -224,8 +226,9 @@ a.register-button-big .register-button-icon {
   color: #fff;
 }
 
-.the-wedding .location-kantoyna {
+.the-wedding a {
   color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .the-wedding .small {
@@ -240,11 +243,11 @@ a.register-button-big .register-button-icon {
 }
 
 .rsvp-section .text-section {
-  padding: 20vh 35px;
+  padding: 10px 35px;
   text-align: left;
   position: absolute;
   float: left;
-  width: 40%;
+  width: 50%;
   z-index: 10;
 }
 
@@ -256,10 +259,10 @@ a.register-button-big .register-button-icon {
 }
 
 .rsvp-section .image-section {
-  width: 55%;
+  width: 50%;
   height: 100%;
   position: absolute;
-  left: 45%;
+  left: 50%;
   background-image: linear-gradient(
       270deg,
       rgba(255, 255, 255, 0) 0%,
@@ -283,7 +286,7 @@ a {
 #map {
   margin: auto;
   height: 50vh;
-  width: 60%;
+  width: 100%;
 }
 
 .accomodations {
@@ -339,6 +342,10 @@ a {
   object-position: 48%;
 }
 
+.getting-there-text-container .text {
+  padding-bottom: 0.5rem;
+}
+
 .hotel-recommendations-picture {
   object-position: 35%;
 }
@@ -357,8 +364,17 @@ a {
   margin: auto;
 }
 
+.adventure .text {
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  margin: auto;
+  font-family: Mandali, serif;
+  color: #24354b;
+}
+
 .adventure-list .sub-headline {
-  padding-top: 30px;
+  padding-top: 2rem;
 }
 
 .adventure .headline {
@@ -370,13 +386,30 @@ a {
   padding-bottom: 15px;
 }
 
-.adventure .mucuyche {
-  font-size: 15px;
-  line-height: 26px;
-  letter-spacing: 0.2px;
-  margin: auto;
-  font-family: Mandali, serif;
-  color: #24354b;
+.mucuyche {
+  display: flex;
+  justify-content: center;
+}
+
+.mucuyche .text-container {
+  width: 50%;
+}
+
+.adventure-spacer {
+  width: 3%;
+}
+
+.mucuyche .picture-container {
+  padding-top: 2rem;
+  width: 48%;
+  display: flex;
+}
+
+.mucuyche .mucuyche-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 @media (max-width: 900px) {
@@ -404,6 +437,18 @@ a {
   .hotel-recommendations-text-container {
     order: 2;
   }
+
+  .mucuyche {
+    display: block;
+  }
+
+  .mucuyche .picture-container {
+    width: 100%;
+  }
+
+  .mucuyche .text-container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -414,11 +459,15 @@ a {
 
 @media (max-width: 600px) {
   #rsvp-section-text {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 
 @media (max-width: 550px) {
+  #rsvp-section-text {
+    font-size: 30px;
+  }
+
   .language-switcher-button {
     width: 40px;
   }
@@ -428,15 +477,44 @@ a {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   #rsvp-section-text {
     font-size: 28px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
+  #rsvp-section-text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 420px) {
+  #rsvp-section-text {
+    font-size: 24px;
+  }
+
   header nav {
     padding: 0 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  #rsvp-section-text {
+    font-size: 34px;
+  }
+
+  .rsvp-section .text-section {
+    padding: 10px 35px;
+    text-align: left;
+    position: absolute;
+    float: left;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .rsvp-section .image-section {
+    display: none;
   }
 }
 

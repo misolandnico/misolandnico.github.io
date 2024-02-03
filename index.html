@@ -79,7 +79,11 @@
 
     <div class="static our-story">
       <div class="headline" id="our-story-headline"></div>
-      <div class="text" id="our-story-text"></div>
+      <div class="text" id="our-story-text-1"></div>
+      <div class="text" id="our-story-text-2"></div>
+      <div class="text" id="our-story-text-3"></div>
+      <div class="text" id="our-story-text-4"></div>
+      <div class="text" id="our-story-text-5"></div>
     </div>
 
     <div class="second-image">
@@ -95,6 +99,13 @@
           <div class="date">
             <div id="ceremony-time" class="text timeline-time"></div>
             <div id="ceremony-text" class="text timeline-text"></div>
+            <a
+              href="https://maps.app.goo.gl/7C43Luz3bGbopTzs9"
+              class="link ceremony-location"
+              id="ceremony-location"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
           </div>
           <img class="icon" src="assets/images/icon/rings.png" />
         </div>
@@ -102,6 +113,13 @@
           <div class="date">
             <div id="welcome-time" class="timeline-time"></div>
             <div id="welcome-text" class="timeline-text"></div>
+            <a
+              href="https://haciendasantaluciakantoyna.com/"
+              class="link hacienda-location"
+              id="hacienda-location"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
           </div>
           <img class="icon" src="assets/images/icon/cocktails.png" />
         </div>
@@ -127,48 +145,6 @@
           <img class="icon" src="assets/images/icon/disco.png" />
         </div>
       </div>
-
-      <!-- <div class="headline date-place-container">
-        <div id="date-container-long"></div>
-      </div>
-      <div class="ceremony">
-        <div id="time-container-ceremony"></div>
-        <div class="headline" id="ceremony-headline"></div>
-        <div class="text" id="ceremony-address"></div>
-        <div class="text" id="ceremony-church-name"></div>
-      </div>
-      <div class="reception">
-        <div class="headline" id="the-wedding-headline"></div>
-        <div class="text" id="address-text"></div>
-        <div class="text">
-          <a
-            href="https://haciendasantaluciakantoyna.com/"
-            class="link location-kantoyna"
-            id="location-kantoyna"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
-        </div>
-        <div class="text small" id="wedding-parking"></div>
-        <div class="text small" id="wedding-dresscode"></div>
-        <div class="map">
-          <div id="map"></div>
-          <script>
-            var map = L.map("map").setView(
-              [21.110793770420248, -89.5212690505211],
-              13
-            );
-            var marker = L.marker([
-              21.110793770420248, -89.5212690505211,
-            ]).addTo(map);
-            L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-              maxZoom: 19,
-              attribution:
-                '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-            }).addTo(map);
-          </script>
-        </div>
-      </div> -->
     </div>
 
     <div class="rsvp-section">
@@ -176,7 +152,7 @@
         <div class="rsvp-section-text" id="rsvp-section-text"></div>
       </div>
       <a
-        id="rsvp-form"
+        id="rsvp-section-button"
         class="register-button-big"
         href="https://misolandnico.anrsvp.com/en"
         target="_blank"
@@ -205,6 +181,45 @@
           <div class="getting-there-text-container text-container">
             <div class="sub-headline" id="getting-there-headline"></div>
             <div class="text" id="getting-there-text"></div>
+            <div class="ceremony">
+              <div id="time-container-ceremony"></div>
+              <div class="text" id="ceremony-address"></div>
+              <div class="text" id="ceremony-church-name"></div>
+            </div>
+            <div class="reception">
+              <div class="text" id="address-text"></div>
+              <div class="text">
+                <a
+                  href="https://haciendasantaluciakantoyna.com/"
+                  class="link location-kantoyna"
+                  id="location-kantoyna"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </div>
+              <div class="text small" id="wedding-parking"></div>
+              <div class="text small" id="wedding-dresscode"></div>
+              <div class="map">
+                <div id="map"></div>
+                <script>
+                  var map = L.map("map").setView(
+                    [21.110793770420248, -89.5212690505211],
+                    13
+                  );
+                  var marker = L.marker([
+                    21.110793770420248, -89.5212690505211,
+                  ]).addTo(map);
+                  L.tileLayer(
+                    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                    {
+                      maxZoom: 19,
+                      attribution:
+                        '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                    }
+                  ).addTo(map);
+                </script>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -227,12 +242,21 @@
     </div>
 
     <div class="static adventure-container">
+      <div class="headline" id="trip-headline"></div>
       <div class="adventure">
-        <div class="headline" id="trip-headline"></div>
         <div class="text" id="trip-text"></div>
         <div class="mucuyche adventure-list">
-          <div class="sub-headline" id="mucuyche-headline"></div>
-          <div class="text" id="mucuyche-text"></div>
+          <div class="text-container">
+            <div class="sub-headline" id="mucuyche-headline"></div>
+            <div class="text" id="mucuyche-text"></div>
+          </div>
+          <div class="adventure-spacer"></div>
+          <div class="picture-container">
+            <img
+              class="mucuyche-img"
+              src="assets/images/parallax/picture10.jpg"
+            />
+          </div>
         </div>
       </div>
     </div>

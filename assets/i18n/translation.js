@@ -72,11 +72,11 @@ function changeLanguage(lang) {
   }
 }
 
-const cCeremonyTime = new Date("2024-12-14T15:00:00");
-const cWelcomeTime = new Date("2024-12-14T16:00:00");
-const cFirstDanceTime = new Date("2024-12-14T16:00:00");
-const cDinnerTime = new Date("2024-12-14T16:00:00");
-const cPartyTime = new Date("2024-12-14T16:00:00");
+const cCeremonyTime = new Date("2024-12-14T17:30:00");
+const cWelcomeTime = new Date("2024-12-14T19:00:00");
+const cFirstDanceTime = new Date("2024-12-14T19:30:00");
+const cDinnerTime = new Date("2024-12-14T20:00:00");
+const cPartyTime = new Date("2024-12-14T23:00:00");
 
 const optionsLong = {
   weekday: "long",
@@ -112,6 +112,14 @@ let languageContent = {
     "hotel-recommendations-headline": "Hotel recommendations",
     "hotel-recommendations-text":
       "We want to make sure your stay during our wedding celebration is as comfortable and enjoyable as possible. Below are some hotel recommendations conveniently located near our wedding venue. Each of these options offers a unique experience, so feel free to choose the one that best suits your preferences.",
+    "hotel-recommendations-text-header-1": "Header 1",
+    "hotel-recommendations-text-text-1": "Text 1",
+    "hotel-recommendations-text-header-2": "Header 2",
+    "hotel-recommendations-text-text-2": "Text 2",
+    "hotel-recommendations-text-header-3": "Header 3",
+    "hotel-recommendations-text-text-3": "Text 3",
+    "hotel-recommendations-text-header-4": "Header 4",
+    "hotel-recommendations-text-text-4": "Text 4",
     "rsvp-text": "Save My Spot",
     "rsvp-text-big": "Save My Spot",
     "trip-headline": "Want to join us on an adventure?",
@@ -142,7 +150,7 @@ let languageContent = {
       "Als die Nacht ihren Höhepunkt erreichte, warf er alle Vorsicht in den Wind und schlug den letzten Tanz vor. Sie stimmte mit einem verspielten Lächeln zu und so verließen sie Hand in Hand den Club und ließen den chaotischen Rhythmus hinter sich. Sie wussten nicht, dass diese spielerische Begegnung nur der Auftakt zu einem Leben voller gemeinsamer Lacher, Eskapaden auf der Tanzfläche und Liebe war, das ihre Herzen für immer schlagen ließ.",
     "the-wedding-headline": "Die Hochzeit",
     "rsvp-section-text":
-      "Wir freuen uns, Dich bei unserer Hochzeitsfeier begrüßen zu dürfen! Deine Anwesenheit wird unseren Tag zu etwas ganz Besonderem machen. Melde Dich jetzt an, um an der Freude und der Feier teilzunehmen!",
+      "Wir freuen uns, Dich bei unserer Hochzeitsfeier begrüßen zu dürfen! Deine Anwesenheit wird unseren Tag zu etwas ganz Besonderem machen.",
     "visiting-text": "Zu Besuch?",
     "getting-there-headline": "Anfahrt",
     "getting-there-text":
@@ -150,6 +158,14 @@ let languageContent = {
     "hotel-recommendations-headline": "Hotelempfehlungen",
     "hotel-recommendations-text":
       "Wir möchten sicherstellen, dass Euer Aufenthalt während unserer Hochzeitsfeier so angenehm wie möglich ist. Nachfolgend haben wir ein paar einige Hotelempfehlungen in günstiger Lage in der Nähe unseres Hochzeitsortes gelistet. Jede dieser Optionen bietet ein einzigartiges Erlebnis. Wählt also die Option, die am besten euren Vorlieben entspricht.",
+    "hotel-recommendations-text-header-1": "Header 1",
+    "hotel-recommendations-text-text-1": "Text 1",
+    "hotel-recommendations-text-header-2": "Header 2",
+    "hotel-recommendations-text-text-2": "Text 2",
+    "hotel-recommendations-text-header-3": "Header 3",
+    "hotel-recommendations-text-text-3": "Text 3",
+    "hotel-recommendations-text-header-4": "Header 4",
+    "hotel-recommendations-text-text-4": "Text 4",
     "rsvp-text": "Jetzt anmelden",
     "rsvp-text-big": "Jetzt anmelden",
     "trip-headline": "Möchtest Du mit uns auf ein Abenteuer gehen?",
@@ -169,15 +185,15 @@ let languageContent = {
   es: {
     "our-story-headline": "Nuestra historia",
     "our-story-text-1":
-      "Retrocedamos a mayo de 2022, en el caos deslumbrante de Mamita, donde comienza nuestra historia. Ella entró al club con su séquito y fue entonces cuando lo vio, un bailarín solitario en medio del huracán de la fiesta. Su ¿Sonríe? Más brillante que una bola de discoteca, lo que hace que todo el club parezca una peculiar comedia romántica.",
+      "Rebobinemos hasta mayo de 2022, en el deslumbrante caos de Mamita, donde arranca nuestra historia. Ella entró en el club con su séquito, y fue entonces cuando puso sus ojos en él: un bailarín solitario en medio del huracán de la fiesta. ¿Su sonrisa? Más brillante que una bola de discoteca, haciendo que todo el club pareciera una estrafalaria comedia romántica",
     "our-story-text-2":
-      "A medida que avanzaba la noche, mostraron sus respectivos movimientos de baile, cada uno robando miradas a través de la pista de baile. Ella, intrigada por su energía contagiosa, no pudo evitar notar sus movimientos desde lejos. Mientras tanto, él estaba tratando de reunir el coraje para haz un movimiento, como un personaje de una película sobre la mayoría de edad.",
+      "A medida que avanzaba la noche, exhibían sus respectivos movimientos de baile, cada uno robándose miradas a través de la pista. Ella, intrigada por la energía contagiosa de él, no podía evitar fijarse en sus movimientos desde lejos. Mientras tanto, él intentaba reunir el valor para hacer un movimiento, como un personaje de una película de madurez",
     "our-story-text-3":
-      "Finalmente, decidió que era ahora o nunca y desafió la pista de baile. Lo que ella no sabía era que este movimiento audaz estaba a punto de ir acompañado de un cambio de lenguaje. Mientras se desarrollaban las presentaciones, ella, con una sonrisa traviesa, preguntó: '¿Por qué no?' ¿Español?' Aparentemente, el lenguaje fue el compañero inesperado esa noche.",
+      "Finalmente, decidió que era ahora o nunca y se atrevió con la pista de baile. Poco sabía ella, este audaz movimiento estaba a punto de ir acompañado de un giro lingüístico. En el momento de las presentaciones, ella, con una sonrisa pícara, preguntó: '¿Por qué no en español?' Por lo visto, esa noche el idioma fue el compañero inesperado",
     "our-story-text-4":
-      "Sin inmutarse por el problema lingüístico, la invitó a bailar y, en medio de los ritmos y el bajo, intentaron un encantador tête-à-tête. Imagínense esto: dos personas gritando palabras dulces sobre la música en auge, creando una escena digna de una comedia de situación. .",
+      "Sin inmutarse por el contratiempo lingüístico, la invitó a bailar y, entre ritmos y bajos, intentaron un encantador tête-à-tête. Imagínatelo: dos personas que se gritan dulzuras por encima del estruendo de la música, creando una escena digna de una comedia de situación.",
     "our-story-text-5":
-      "Cuando la noche llegó a su apogeo, él dejó de lado la precaución y propuso el baile final. Ella asintió con una sonrisa juguetona, y así, de la mano, salieron del club, dejando atrás el ritmo caótico. Poco lo sabían. Este divertido encuentro fue solo el acto de apertura de una vida de risas compartidas, escapadas a la pista de baile y amor que mantendría el latido de sus corazones para siempre.",
+      "Cuando la noche llegaba a su punto álgido, él tiró la cautela al viento y propuso el baile final. Ella aceptó con una sonrisa juguetona, y así, de la mano, salieron del club, dejando atrás el ritmo caótico. Poco sabían que este encuentro juguetón era sólo el preludio de toda una vida de risas compartidas, escapadas a la pista de baile y un amor que mantendría el latido de sus corazones para siempre.",
     "the-wedding-headline": "La boda",
     "rsvp-section-text":
       "¡Estamos encantados de darle la bienvenida a la celebración de nuestra boda! Su presencia hará que nuestro día sea realmente especial. ¡Confirma su asistencia ahora para unirse a la alegría y las festividades!",
@@ -188,6 +204,14 @@ let languageContent = {
     "hotel-recommendations-headline": "Recomendaciones de hoteles",
     "hotel-recommendations-text":
       "Queremos asegurarnos de que su estadía durante la celebración de nuestra boda sea lo más cómoda y placentera posible. A continuación encontrará algunas recomendaciones de hoteles convenientemente ubicados cerca del lugar de celebración de nuestra boda. Cada una de estas opciones ofrece una experiencia única, así que siéntase libre de elegir la que mejor se adapte a sus necesidades. se adapta a tus preferencias.",
+    "hotel-recommendations-text-header-1": "Header 1",
+    "hotel-recommendations-text-text-1": "Text 1",
+    "hotel-recommendations-text-header-2": "Header 2",
+    "hotel-recommendations-text-text-2": "Text 2",
+    "hotel-recommendations-text-header-3": "Header 3",
+    "hotel-recommendations-text-text-3": "Text 3",
+    "hotel-recommendations-text-header-4": "Header 4",
+    "hotel-recommendations-text-text-4": "Text 4",
     "rsvp-text": "Guardar mi lugar",
     "rsvp-text-big": "Guardar mi lugar",
     "trip-headline": "Quieres unirte a nosotros en una aventura?",

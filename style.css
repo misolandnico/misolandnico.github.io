@@ -423,12 +423,12 @@ a {
   color: #24354b;
 }
 
-.adventure {
+.adventure-text-container {
   width: 70%;
   margin: auto;
 }
 
-.adventure .text {
+.adventure-text-container .text {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.2px;
@@ -441,7 +441,7 @@ a {
   padding-top: 2rem;
 }
 
-.adventure .headline {
+.adventure-text-container .headline {
   text-align: center;
   text-transform: uppercase;
   font-family: Homenaje, sans-serif;
@@ -483,6 +483,11 @@ a {
 
   .visiting-container {
     display: block;
+  }
+
+  .adventure-text-container {
+    padding: 3%;
+    width: 100%;
   }
 
   .visiting-container .picture-container {

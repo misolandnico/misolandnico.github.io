@@ -10,6 +10,7 @@ window.onload = function () {
       );
       ceremonyDate =
         ceremonyDate.charAt(0).toUpperCase() + ceremonyDate.slice(1);
+      document.getElementById("ceremony-date").innerHTML = ceremonyDate;
       var ceremonyTime = cCeremonyTime.toLocaleTimeString(
         userLang,
         timeOptions
@@ -33,6 +34,7 @@ window.onload = function () {
       var ceremonyDate = cCeremonyTime.toLocaleDateString("en", optionsLong);
       ceremonyDate =
         ceremonyDate.charAt(0).toUpperCase() + ceremonyDate.slice(1);
+      document.getElementById("ceremony-date").innerHTML = ceremonyDate;
       var ceremonyTime = cCeremonyTime.toLocaleTimeString("en", timeOptions);
       document.getElementById("ceremony-time").innerHTML = ceremonyTime;
       var welcomeTime = cWelcomeTime.toLocaleTimeString(lang, timeOptions);
@@ -56,6 +58,8 @@ function changeLanguage(lang) {
 
     var ceremonyDate = cCeremonyTime.toLocaleDateString(lang, optionsLong);
     ceremonyDate = ceremonyDate.charAt(0).toUpperCase() + ceremonyDate.slice(1);
+    document.getElementById("ceremony-date").innerHTML = ceremonyDate;
+
     var ceremonyTime = cCeremonyTime.toLocaleTimeString(lang, timeOptions);
     document.getElementById("ceremony-time").innerHTML = ceremonyTime;
     var welcomeTime = cWelcomeTime.toLocaleTimeString(lang, timeOptions);

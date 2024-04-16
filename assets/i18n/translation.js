@@ -52,7 +52,6 @@ window.onload = function () {
 
 function changeLanguage(lang) {
   for (let key in languageContent[lang]) {
-    console.log(key);
     document.getElementById(key).innerHTML = languageContent[lang][key];
 
     var ceremonyDate = cCeremonyTime.toLocaleDateString(lang, optionsLong);

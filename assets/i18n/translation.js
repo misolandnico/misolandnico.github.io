@@ -23,10 +23,12 @@ window.onload = function () {
         timeOptions
       );
       document.getElementById("first-dance-time").innerHTML = firstDanceTime;
-      var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
-      document.getElementById("dinner-time").innerHTML = dinnerTime;
       var partyTime = cPartyTime.toLocaleTimeString(lang, timeOptions);
       document.getElementById("party-time").innerHTML = partyTime;
+      var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
+      document.getElementById("dinner-time").innerHTML = dinnerTime;
+      var morePartyTime = cMorePartyTime.toLocaleTimeString(lang, timeOptions);
+      document.getElementById("more-party-time").innerHTML = morePartyTime;
     }
   } else {
     for (let key in languageContent["en"]) {
@@ -44,10 +46,12 @@ window.onload = function () {
         timeOptions
       );
       document.getElementById("first-dance-time").innerHTML = firstDanceTime;
-      var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
-      document.getElementById("dinner-time").innerHTML = dinnerTime;
       var partyTime = cPartyTime.toLocaleTimeString(lang, timeOptions);
       document.getElementById("party-time").innerHTML = partyTime;
+      var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
+      document.getElementById("dinner-time").innerHTML = dinnerTime;
+      var morePartyTime = cMorePartyTime.toLocaleTimeString(lang, timeOptions);
+      document.getElementById("more-party-time").innerHTML = morePartyTime;
     }
   }
 };
@@ -66,10 +70,12 @@ function changeLanguage(lang) {
     document.getElementById("welcome-time").innerHTML = welcomeTime;
     var firstDanceTime = cFirstDanceTime.toLocaleTimeString(lang, timeOptions);
     document.getElementById("first-dance-time").innerHTML = firstDanceTime;
-    var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
-    document.getElementById("dinner-time").innerHTML = dinnerTime;
     var partyTime = cPartyTime.toLocaleTimeString(lang, timeOptions);
     document.getElementById("party-time").innerHTML = partyTime;
+    var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
+    document.getElementById("dinner-time").innerHTML = dinnerTime;
+    var morePartyTime = cMorePartyTime.toLocaleTimeString(lang, timeOptions);
+    document.getElementById("more-party-time").innerHTML = morePartyTime;
     document.getElementById("rsvp-form").href =
       "https://misolandnico.anrsvp.com/" + lang;
   }
@@ -78,8 +84,9 @@ function changeLanguage(lang) {
 const cCeremonyTime = new Date("2024-12-14T17:30:00");
 const cWelcomeTime = new Date("2024-12-14T19:00:00");
 const cFirstDanceTime = new Date("2024-12-14T19:30:00");
-const cDinnerTime = new Date("2024-12-14T20:00:00");
-const cPartyTime = new Date("2024-12-14T23:00:00");
+const cPartyTime = new Date("2024-12-14T19:45:00");
+const cDinnerTime = new Date("2024-12-14T21:00:00");
+const cMorePartyTime = new Date("2024-12-14T24:00:00");
 
 const optionsLong = {
   weekday: "long",
@@ -127,8 +134,9 @@ let languageContent = {
     "ceremony-text": "Ceremony at Iglesia de Libano",
     "welcome-text": "Welcome cocktails at Hacienda Santa Lucía Kantoyna",
     "first-dance-text": "First Dance",
-    "dinner-text": "Dinner",
     "party-text": "Dancing! ",
+    "dinner-text": "Dinner",
+    "more-party-text": "More Dancing! ",
     "ceremony-location": "Click here to open in maps",
     "hacienda-location": "Click here to open in maps",
   },
@@ -165,8 +173,9 @@ let languageContent = {
     "ceremony-text": "Zeremonie in der Iglesia de Libano",
     "welcome-text": "Begrüßungscocktails in der Hacienda Santa Lucía Kantoyna",
     "first-dance-text": "Erster Tanz",
-    "dinner-text": "Abendessen",
     "party-text": "Lasst uns tanzen!",
+    "dinner-text": "Abendessen",
+    "more-party-text": "Mehr Tanz!",
     "ceremony-location": "Hier klicken um in Maps zu öffnen",
     "hacienda-location": "Hier klicken um in Maps zu öffnen",
   },
@@ -203,8 +212,9 @@ let languageContent = {
     "ceremony-text": "Ceremonia en la Iglesia de Líbano",
     "welcome-text": "Cócteles de bienvenida en Hacienda Santa Lucía Kantoyna",
     "first-dance-text": "Primer baile",
-    "dinner-text": "Cena",
     "party-text": "¡Bailando!",
+    "dinner-text": "Cena",
+    "more-party-text": "¡Bailando más!",
     "ceremony-location": "Haga clic aquí para abrir en mapas",
     "hacienda-location": "Haga clic aquí para abrir en mapas",
   },

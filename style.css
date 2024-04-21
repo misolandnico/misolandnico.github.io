@@ -185,6 +185,7 @@ a.register-button .register-button-icon {
 }
 
 a.register-button-big {
+  outline: solid rgba(255, 255, 255, 0.6);
   position: absolute;
   width: 320px;
   display: flex;

@@ -208,10 +208,21 @@ a.register-button-big {
   right: 0;
 }
 
+a.register-button-big:hover {
+  color: #24354b;
+  background-color: #fff;
+  outline: none;
+}
+
 a.register-button-big .register-button-icon {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(4deg) brightness(100%)
     contrast(105%);
   height: 60px;
+}
+
+a.register-button-big:hover img {
+  filter: invert(18%) sepia(13%) saturate(1717%) hue-rotate(174deg)
+    brightness(98%) contrast(93%);
 }
 
 .our-story {

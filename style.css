@@ -223,7 +223,7 @@ a.register-button-big {
 a.register-button-big:hover {
   color: #24354b;
   background-color: #fff;
-  outline: none;
+  outline: solid rgba(36, 53, 75, 1);
 }
 
 a.register-button-big .register-button-icon {

@@ -29,6 +29,7 @@ body {
   letter-spacing: 0.2px;
   margin: auto;
   font-family: Mandali, serif;
+  text-align: justify;
 }
 
 .language-switcher-button {
@@ -88,6 +89,7 @@ header ul li {
   font-weight: bolder;
   font-size: 46px;
   padding-bottom: 15px;
+  width: 70%;
 }
 
 .sub-headline {
@@ -122,7 +124,7 @@ header ul li {
 .headline-text {
   width: 100%;
   height: 100%;
-  background-image: url("assets/images/parallax/monogram-name.png");
+  background-image: url("assets/images/parallax/monogram.png");
   background-position-x: center;
   background-position-y: -2rem;
   background-size: 300px;
@@ -178,10 +180,20 @@ a.register-button {
   border-radius: 15px;
 }
 
+a.register-button:hover {
+  color: #24354b;
+  background-color: #ffffff;
+}
+
 a.register-button .register-button-icon {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(4deg) brightness(100%)
     contrast(105%);
   height: 20px;
+}
+
+a.register-button:hover .register-button-icon {
+  filter: invert(18%) sepia(16%) saturate(1474%) hue-rotate(174deg)
+    brightness(94%) contrast(92%);
 }
 
 a.register-button-big {
@@ -286,11 +298,20 @@ a.register-button-big:hover img {
   z-index: 10;
 }
 
+.rsvp-section {
+  .text-section {
+    height: 70%;
+  }
+}
+
 #rsvp-section-text {
   color: #24354b;
   font-family: Vollkorn, serif;
   font-size: 38px;
   margin: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .rsvp-section .image-section {
@@ -383,6 +404,7 @@ a {
 
 .getting-there-text-container .text {
   padding-bottom: 0.5rem;
+  text-align: justify;
 }
 
 a.recommendation-button-big {
@@ -405,6 +427,13 @@ a.recommendation-button-big {
   margin: auto;
   left: 0;
   right: 0;
+  outline: none;
+}
+
+a.recommendation-button-big:hover {
+  color: #ffffff;
+  background-color: #24354b;
+  outline: solid rgba(255, 255, 255, 0.6);
 }
 
 .hotel-recommendations-button-container {
@@ -422,6 +451,7 @@ a.recommendation-button-big {
 
 .visiting-container .text-container .text {
   width: 100%;
+  text-align: justify;
 }
 
 .adventure-container {
@@ -626,6 +656,11 @@ a.recommendation-button-big {
   text-transform: uppercase;
 }
 
+.daytrips-button-container {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
 @media (max-width: 1150px) {
   a.recommendation-button-big {
     font-size: 20px;
@@ -763,6 +798,7 @@ a.recommendation-button-big {
     font-size: 30px;
     margin: 10px;
     text-align: center;
+    display: block;
   }
 
   .rsvp-section .image-section {
@@ -837,6 +873,14 @@ a.recommendation-button-big {
 }
 
 @media (max-width: 420px) {
+  .headline {
+    font-size: 38px;
+    width: 100%;
+  }
+
+  .sub-headline {
+    font-size: 26px;
+  }
   #rsvp-section-text {
     font-size: 24px;
   }
@@ -900,6 +944,20 @@ a.recommendation-button-big {
   .container {
     top: 50px;
     height: 200px;
+  }
+
+  a.register-button-big {
+    width: 240px;
+    font-size: 30px;
+
+    .register-button-icon {
+      height: 50px;
+    }
+  }
+
+  a.recommendation-button-big {
+    width: 240px;
+    font-size: 20px;
   }
 }
 

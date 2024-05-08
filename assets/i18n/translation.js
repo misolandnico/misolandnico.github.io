@@ -103,15 +103,15 @@ let languageContent = {
   en: {
     "our-story-headline": "Our Story",
     "our-story-text-1":
-      "Let's rewind to May 2022, in the dazzling chaos of Mamita, where our story kicks off. She walked into the club with her entourage, and that's when she laid eyes on him – a lone dancer in the midst of the party hurricane. His smile? Brighter than a disco ball, making the whole club seem like a quirky rom-com.",
+      "Let's travel back to May 2022, when Mamita's dazzling chaos marks the beginning of this beautiful story. She entered the club accompanied by her friends. On the other side, he, a lone dancer in the middle of the whirlwind of the party. And suddenly, his smile lit up the darkness of the place. More radiant than a disco ball, turning the entire club into the bright sunshine of her beloved Mexico.",
     "our-story-text-2":
-      "As the night unfolded, they showcased their respective dance moves, each stealing glances across the dance floor. She, intrigued by his infectious energy, couldn't help but notice his moves from afar. Meanwhile, he was trying to summon the courage to make a move, like a character in a coming-of-age film.",
+      "As the night progressed, they showed off their dance moves, both enjoying the rhythm of each song and casting furtive glances across the dance floor at each other. She, intrigued by his infectious energy, couldn't help but watch his moves from afar. Meanwhile, he was trying to muster the courage to take the first step.",
     "our-story-text-3":
-      "Eventually, he decided it was now or never and braved the dance floor. Little did she know, this bold move was about to be accompanied by a language twist. As introductions unfolded, she, with a mischievous grin, asked, 'Why not Spanish?' Apparently, language was the unexpected wingman that night.",
+      "Deciding it was now or never, he crossed the dance floor to finally strike up a conversation. What she didn't know was that this bold move would be accompanied by a linguistic twist. He shyly said “hello” in English, and she, with a mischievous smile, asked, “Por qué no en español?” as she was convinced that his passion for dancing gave him away as a Latino.",
     "our-story-text-4":
-      "Undeterred by the linguistic hiccup, he invited her to dance, and amidst the beats and bass, they attempted a charming tête-à-tête. Picture this: two people shouting sweet nothings over the booming music, creating a scene worthy of a sitcom.",
+      "Undeterred by the linguistic mishap, he asked her to dance and, between beats and bass, he displayed his best moves to the sound of Jason Derulo.",
     "our-story-text-5":
-      "As the night reached its peak, he threw caution to the wind and proposed the final dance. She agreed with a playful smile, and so, hand in hand, they exited the club, leaving behind the chaotic rhythm. Little did they know, this playful encounter was just the opening act to a lifetime of shared laughs, dance floor escapades, and love that would keep the beat of their hearts forever.",
+      "As the night reached its climax, they enjoyed one last dance before she said goodbye and he asked for her contact. She accepted with a playful smile, and then they left the club, leaving the chaotic beat behind. Little did they know that this playful encounter was just the beginning of a lifetime of shared laughter, dance floor escapades and a love that would keep their hearts beating forever.",
     "the-wedding-headline": "The wedding",
     "rsvp-section-text":
       "We are thrilled to welcome you to our wedding celebration! Your presence will make our day truly special. RSVP now to join in the joy and festivities!",
@@ -147,15 +147,15 @@ let languageContent = {
   de: {
     "our-story-headline": "Unsere Geschichte",
     "our-story-text-1":
-      "Spulen wir zurück in den Mai 2022, in das schillernde Chaos von Mamita, wo unsere Geschichte beginnt. Sie ging mit ihrem Gefolge in den Club, und da sah sie ihn – einen einsamen Tänzer inmitten des Party-Hurrikans. Sein Lächeln? Heller als eine Discokugel, wodurch der ganze Club wie eine skurrile Liebeskomödie wirkt.",
+      "Reisen wir zurück in den Mai 2022, als Mamitas schillerndes Chaos den Beginn dieser schönen Geschichte markiert. Sie betrat den Club in Begleitung ihrer Freunde. Auf der anderen Seite, er, ein einsamer Tänzer inmitten des Wirbels der Party. Und plötzlich erhellte sein Lächeln die Dunkelheit des Clubs. Es war strahlender als eine Discokugel und verwandelte den ganzen Club in den hellen Sonnenschein ihres geliebten Mexikos.",
     "our-story-text-2":
-      "Im weiteren Verlauf der Nacht präsentierten sie ihre jeweiligen Tanzschritte und erregten auf der Tanzfläche Blicke auf sich. Sie war fasziniert von seiner ansteckenden Energie und konnte nicht umhin, seine Bewegungen schon aus der Ferne zu bemerken. In der Zwischenzeit versuchte er, den Mut aufzubringen, etwas zu unternehmen, wie eine Figur in einem Coming-of-Age-Film.",
+      "Im Laufe des Abends zeigten sie ihre Tanzschritte, genossen den Rhythmus jedes Liedes und warfen sich gegenseitig verstohlene Blicke zu. Sie, die von seiner ansteckenden Energie fasziniert war, konnte nicht anders, als seine Bewegungen aus der Ferne zu beobachten. Währenddessen versuchte er, den Mut aufzubringen, den ersten Schritt zu tun.",
     "our-story-text-3":
-      "Schließlich entschied er, dass es jetzt oder nie hieße, und wagte sich auf die Tanzfläche. Sie wusste nicht, dass dieser mutige Schritt von einer sprachlichen Wendung begleitet sein würde. Während sich die Vorstellungen abspielten, fragte sie mit einem schelmischen Grinsen: „Warum nicht Spanisch?“ Offenbar war die Sprache an diesem Abend der unerwartete Flügelspieler.",
+      "Als er beschloss, dass es jetzt oder nie passieren würde, überquerte er die Tanzfläche, um sie endlich anzusprechen. Was sie nicht wusste, war, dass dieser mutige Schritt von einer sprachlichen Überraschung begleitet sein würde. Er sagte schüchtern 'Hello' auf Englisch, und sie fragte mit einem verschmitzten Lächeln: 'Por qué no en español?', denn sie war überzeugt, dass seine Leidenschaft fürs Tanzen ihn als Latino verriet.",
     "our-story-text-4":
-      "Unbeeindruckt von dem sprachlichen Schluckauf lud er sie zum Tanzen ein, und inmitten der Beats und Bässe versuchten sie ein charmantes Tête-à-Tête. Stellen Sie sich Folgendes vor: Zwei Menschen brüllen lautstark über die dröhnende Musik hinweg und schaffen so eine Szene, die einer Sitcom würdig ist.",
+      "Unbeeindruckt von dem sprachlichen Durcheinander forderte er sie zum Tanzen auf, und zwischen Beats und Bässen zeigte er seine besten Moves zu den Klängen von Jason Derulo.",
     "our-story-text-5":
-      "Als die Nacht ihren Höhepunkt erreichte, warf er alle Vorsicht in den Wind und schlug den letzten Tanz vor. Sie stimmte mit einem verspielten Lächeln zu und so verließen sie Hand in Hand den Club und ließen den chaotischen Rhythmus hinter sich. Sie wussten nicht, dass diese spielerische Begegnung nur der Auftakt zu einem Leben voller gemeinsamer Lacher, Eskapaden auf der Tanzfläche und Liebe war, das ihre Herzen für immer schlagen ließ.",
+      "Als der Abend seinen Höhepunkt erreichte, tanzten sie noch ein letztes Mal, bevor sie sich verabschiedete und er sie nach ihrer Nummer fragte. Sie akzeptierte mit einem verspielten Lächeln, und dann verließen sie den Club und ließen den chaotischen Beat zurück. Sie ahnten nicht, dass diese spielerische Begegnung nur der Beginn einer lebenslangen Beziehung mit vielen Momenten gemeinsamen Lachens, Eskapaden auf der Tanzfläche und voller Liebe war, die ihre Herzen für immer schlagen lassen würde.",
     "the-wedding-headline": "Die Hochzeit",
     "rsvp-section-text":
       "Wir freuen uns, Dich bei unserer Hochzeitsfeier begrüßen zu dürfen! Deine Anwesenheit wird unseren Tag zu etwas ganz Besonderem machen.",
@@ -191,15 +191,15 @@ let languageContent = {
   es: {
     "our-story-headline": "Nuestra historia",
     "our-story-text-1":
-      "Rebobinemos hasta mayo de 2022, en el deslumbrante caos de Mamita, donde arranca nuestra historia. Ella entró en el club con su séquito, y fue entonces cuando puso sus ojos en él: un bailarín solitario en medio del huracán de la fiesta. ¿Su sonrisa? Más brillante que una bola de discoteca, haciendo que todo el club pareciera una estrafalaria comedia romántica",
+      "Viajemos de vuelta a mayo de 2022, cuando el deslumbrante caos de Mamita marca el inicio de esta hermosa historia. Ella entró al club acompañada de sus amigos. Al otro lado, él, un bailarín solitario en medio del torbellino de la fiesta. Y de repente, su sonrisa iluminó la oscuridad del lugar. Más radiante que una bola de discoteca, convirtiendo el club entero en el brillante sol de su amado México.",
     "our-story-text-2":
-      "A medida que avanzaba la noche, exhibían sus respectivos movimientos de baile, cada uno robándose miradas a través de la pista. Ella, intrigada por la energía contagiosa de él, no podía evitar fijarse en sus movimientos desde lejos. Mientras tanto, él intentaba reunir el valor para hacer un movimiento, como un personaje de una película de madurez",
+      "A medida que avanzaba la noche, mostraban sus movimientos de baile, ambos disfrutando del ritmo de cada canción y lanzándose miradas furtivas a través de la pista. Ella, intrigada por la energía contagiosa de él, no podía evitar observar sus movimientos desde lejos. Mientras tanto, él trataba de reunir el coraje para dar el primer paso.",
     "our-story-text-3":
-      "Finalmente, decidió que era ahora o nunca y se atrevió con la pista de baile. Poco sabía ella, este audaz movimiento estaba a punto de ir acompañado de un giro lingüístico. En el momento de las presentaciones, ella, con una sonrisa pícara, preguntó: '¿Por qué no en español?' Por lo visto, esa noche el idioma fue el compañero inesperado",
+      "Decidió que era ahora o nunca, y cruzó la pista de baile para finalmente entablar una conversación. Lo que ella no sabía era que este audaz movimiento iba a ir acompañado de un giro lingüístico. Él tímidamente le dijo 'hello' en inglés, y ella, con una sonrisa pícara, preguntó: '¿Por qué no en español?', pues estaba convencida de que su pasión por el baile lo delataba como latino.",
     "our-story-text-4":
-      "Sin inmutarse por el contratiempo lingüístico, la invitó a bailar y, entre ritmos y bajos, intentaron un encantador tête-à-tête. Imagínatelo: dos personas que se gritan dulzuras por encima del estruendo de la música, creando una escena digna de una comedia de situación.",
+      "Sin inmutarse por el contratiempo lingüístico, él la invitó a bailar y, entre ritmos y bajos, desplegó sus mejores movimientos al son de Jason Derulo.",
     "our-story-text-5":
-      "Cuando la noche llegaba a su punto álgido, él tiró la cautela al viento y propuso el baile final. Ella aceptó con una sonrisa juguetona, y así, de la mano, salieron del club, dejando atrás el ritmo caótico. Poco sabían que este encuentro juguetón era sólo el preludio de toda una vida de risas compartidas, escapadas a la pista de baile y un amor que mantendría el latido de sus corazones para siempre.",
+      "Cuando la noche alcanzó su punto álgido, disfrutaron de un último baile antes de que ella se despidiera y él le pidiera su contacto. Ella aceptó con una sonrisa juguetona, y luego salieron del club, dejando atrás el caótico ritmo. Poco sabían que este encuentro juguetón era solo el comienzo de toda una vida de risas compartidas, escapadas a la pista de baile y un amor que mantendría el latido de sus corazones para siempre.",
     "the-wedding-headline": "La boda",
     "rsvp-section-text":
       "Estamos encantados de darle la bienvenida a la celebración de nuestra boda. Su presencia hará que nuestro día sea realmente especial.",

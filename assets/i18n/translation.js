@@ -206,7 +206,7 @@ let languageContent = {
     "visiting-text": "¿De visita?",
     "getting-there-headline": "Cómo llegar",
     "getting-there-text":
-      "A sólo unos minutos al noreste de la ciudad de Mérida, en el campo, se encuentra la Hacienda Santa Lucía Kantoyna, rodeada de enormes árboles, flores regionales y el canto de los pájaros. En medio de este maravilloso paraíso comeremos, beberemos, reiremos y Celebre este día perfecto.",
+      "A sólo unos minutos al noreste de la ciudad de Mérida, en el campo, se encuentra la Hacienda Santa Lucía Kantoyna, rodeada de enormes árboles, flores regionales y el canto de los pájaros. En medio de este maravilloso paraíso comeremos, beberemos, reiremos y celebre este día perfecto.",
     "hotel-recommendations-headline": "Recomendaciones de hoteles",
     "hotel-recommendations-text":
       "Queremos asegurarnos de que su estadía durante la celebración de nuestra boda sea lo más cómoda y placentera posible. A continuación encontrará algunas recomendaciones de hoteles convenientemente ubicados cerca del lugar de celebración de nuestra boda. Cada una de estas opciones ofrece una experiencia única, así que siéntase libre de elegir la que mejor se adapte a sus necesidades. se adapta a tus preferencias.",

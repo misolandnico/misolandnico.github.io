@@ -272,6 +272,26 @@ a.register-button-big:hover img {
   padding-bottom: 0;
 }
 
+.dresscode {
+  padding-top: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+.dresscode .text {
+  text-align: center;
+}
+
+#dresscode-text-1 {
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#dresscode-text-2 {
+  font-size: 18px;
+}
+
 .ceremony-date {
   padding-bottom: 15px;
   text-align: center;
@@ -306,7 +326,6 @@ a.register-button-big:hover img {
 
 #rsvp-section-text {
   color: #24354b;
-  font-family: Vollkorn, serif;
   font-size: 38px;
   margin: 10px;
   height: 100%;
@@ -661,6 +680,29 @@ a.recommendation-button-big:hover {
   white-space: pre-wrap;
 }
 
+.presents-container {
+  background-color: #fff;
+  margin: auto;
+}
+
+#want-to-give-a-present-text {
+  width: 70%;
+}
+
+.paypal-pic {
+  padding-top: 30px;
+  display: block;
+  width: 600px;
+  margin: auto;
+}
+
+#paypal-name {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: underline dotted;
+  text-align: center;
+  display: block;
+}
+
 @media (max-width: 1150px) {
   a.recommendation-button-big {
     font-size: 20px;
@@ -715,6 +757,10 @@ a.recommendation-button-big:hover {
 
   .hotel-recommendations-list-wrapper {
     width: 100%;
+  }
+
+  .paypal-pic {
+    width: 70%;
   }
 }
 
@@ -876,6 +922,11 @@ a.recommendation-button-big:hover {
   .headline {
     font-size: 38px;
     width: 100%;
+  }
+
+  .dresscode {
+    width: 100%;
+    margin: auto;
   }
 
   .sub-headline {

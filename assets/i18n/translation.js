@@ -143,6 +143,12 @@ let languageContent = {
     "more-party-text": "More Dancing! ",
     "ceremony-location": "Click here to open in maps",
     "hacienda-location": "Click here to open in maps",
+    "dresscode-text-1": "Dresscode",
+    "dresscode-text-2":
+      "Formal Attire. We kindly request that gentlemen wear a tuxedo or a dark suit with a tie, avoiding light colors. Ladies are asked to wear an evening gown, avoiding white and very light colors.",
+    "want-to-give-a-present-headline": "Want to give us a present?",
+    "want-to-give-a-present-text":
+      "Since we need to travel back to Europe, we won't be able to carry much with us. Therefore, we would greatly appreciate it if you could transfer money directly to our PayPal account using the link below. Thanks for helping us travel light!",
   },
   de: {
     "our-story-headline": "Unsere Geschichte",
@@ -187,6 +193,13 @@ let languageContent = {
     "more-party-text": "Mehr Tanz!",
     "ceremony-location": "Hier klicken um in Maps zu öffnen",
     "hacienda-location": "Hier klicken um in Maps zu öffnen",
+    "dresscode-text-1": "Dresscode",
+    "dresscode-text-2":
+      "Formelle Kleidung. Wir bitten die Herren, einen Smoking oder einen dunklen Anzug mit Krawatte zu tragen und helle Farben zu vermeiden. Die Damen werden gebeten, ein Abendkleid zu tragen, wobei Weiß und sehr helle Farben zu vermeiden sind.",
+    "want-to-give-a-present-headline":
+      "Möchtest du uns ein Geschenk überreichen?",
+    "want-to-give-a-present-text":
+      "Da wir zurück nach Europa reisen müssen, werden wir nicht viel mitnehmen können. Daher wären wir dir sehr dankbar, wenn du uns Geld über den unten stehenden Link direkt auf unser PayPal-Konto überweisen könntest. Danke, dass Sie uns helfen, mit leichtem Gepäck zu reisen!",
   },
   es: {
     "our-story-headline": "Nuestra historia",
@@ -231,5 +244,11 @@ let languageContent = {
     "more-party-text": "¡Bailando más!",
     "ceremony-location": "Haga clic aquí para abrir en mapas",
     "hacienda-location": "Haga clic aquí para abrir en mapas",
+    "dresscode-text-1": "Dresscode",
+    "dresscode-text-2":
+      "Vestimenta formal. Rogamos a los caballeros que lleven esmoquin o traje oscuro con corbata, evitando los colores claros. A las damas se les pide que lleven un vestido de noche, evitando el blanco y los colores muy claros.",
+    "want-to-give-a-present-headline": "¿Quieres darnos un regalo?",
+    "want-to-give-a-present-text":
+      "Como tenemos que viajar de vuelta a Europa, no podremos llevar mucho con nosotros. Por lo tanto, te agradeceríamos mucho que nos transfirieras dinero directamente a nuestra cuenta de PayPal a través del siguiente enlace. ¡Gracias por ayudarnos a viajar ligeros de equipaje!",
   },
 };

@@ -122,7 +122,7 @@ let languageContent = {
     "hotel-recommendations-headline": "Hotel recommendations",
     "hotel-recommendations-text":
       "We want to make sure your stay during our wedding celebration is as comfortable and enjoyable as possible. Below are some hotel recommendations conveniently located near our wedding venue. Each of these options offers a unique experience, so feel free to choose the one that best suits your preferences.",
-    "daytrips-headline": "Day trips?",
+    "daytrips-headline": "Day trips",
     "daytrips-text":
       "Welcome to the captivating embrace of Merida, Yucatan, and its surrounding wonders! Prepare to be captivated by the rich tapestry of experiences awaiting you. While monotony remains an elusive concept in this vibrant haven, we've handpicked a bouquet of delightful activities to enhance your journey. So, let your curiosity be your compass, and allow the magic of Merida to enchant you at every turn!",
     "daytrips-button": "Day trips",
@@ -172,7 +172,7 @@ let languageContent = {
     "hotel-recommendations-headline": "Hotelempfehlungen",
     "hotel-recommendations-text":
       "Wir möchten sicherstellen, dass Euer Aufenthalt während unserer Hochzeitsfeier so angenehm wie möglich ist. Nachfolgend haben wir ein paar einige Hotelempfehlungen in günstiger Lage in der Nähe unseres Hochzeitsortes gelistet. Jede dieser Optionen bietet ein einzigartiges Erlebnis. Wählt also die Option, die am besten euren Vorlieben entspricht.",
-    "daytrips-headline": "Tagesausflüge?",
+    "daytrips-headline": "Tagesausflüge",
     "daytrips-text":
       "Willkommen in der fesselnden Umarmung von Merida, Yucatan, und seinen umliegenden Wundern! Bereiten Sie sich darauf vor, von der Fülle der Erlebnisse, die Sie erwarten, in den Bann gezogen zu werden. Da Monotonie in diesem pulsierenden Paradies ein schwer fassbares Konzept ist, haben wir einen Strauß reizvoller Aktivitäten ausgewählt, die Ihre Reise bereichern werden. Lassen Sie sich also von Ihrer Neugier leiten und lassen Sie sich von der Magie Meridas auf Schritt und Tritt verzaubern!",
     "daytrips-button": "Tagesausflüge",
@@ -223,7 +223,7 @@ let languageContent = {
     "hotel-recommendations-headline": "Recomendaciones de hoteles",
     "hotel-recommendations-text":
       "Queremos asegurarnos de que su estadía durante la celebración de nuestra boda sea lo más cómoda y placentera posible. A continuación encontrará algunas recomendaciones de hoteles convenientemente ubicados cerca del lugar de celebración de nuestra boda. Cada una de estas opciones ofrece una experiencia única, así que siéntase libre de elegir la que mejor se adapte a sus necesidades. se adapta a tus preferencias.",
-    "daytrips-headline": "Excursiones?",
+    "daytrips-headline": "Excursiones",
     "daytrips-text":
       "¡Bienvenido al cautivador abrazo de Mérida, Yucatán, y sus maravillas circundantes! Prepárese para ser cautivado por el rico tapiz de experiencias que le esperan. Aunque la monotonía sigue siendo un concepto difícil de alcanzar en este vibrante paraíso, hemos seleccionado un ramillete de deliciosas actividades para mejorar su viaje. Deje que su curiosidad sea su brújula y permita que la magia de Mérida le encandile a cada paso.",
     "daytrips-button": "Excursiones",

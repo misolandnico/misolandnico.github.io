@@ -21,6 +21,8 @@ function changeLanguage(lang) {
 let languageContent = {
   en: {
     "back-text": "Back",
+    chichen:
+      "Chichen Itza is a sprawling ancient Mayan city located on the Yucatán Peninsula in Mexico, renowned for its architectural and astronomical significance. Dominated by the pyramid of El Castillo, also known as the Temple of Kukulcán, the site features numerous structures that reflect a blend of Mayan and Toltec influences, such as the Great Ball Court and the Temple of the Warriors. As a UNESCO World Heritage Site and one of the New Seven Wonders of the World, Chichen Itza attracts millions of visitors annually, offering a glimpse into the rich cultural and scientific achievements of the Maya civilization.",
     celestun:
       "Embark on a journey to Celestun, renowned for its breathtaking ecological reserves and vibrant pink Caribbean flamingos, offering a refreshing dip and the chance to savor lunch at a scenic beachfront eatery. Experience the wonders of Parque Natural del Flamenco Mexicano, a vast biosphere reserve teeming with diverse wildlife, including sea turtles and crocodiles, as well as picturesque mangroves best explored by boat. After a dip in the refreshing waters, indulge in regional delicacies at a local beachfront restaurant before bidding farewell to this pristine paradise and returning to Merida.",
     uxmal:
@@ -42,6 +44,8 @@ let languageContent = {
   },
   de: {
     "back-text": "Zurück",
+    chichen:
+      "Chichen Itza ist eine ausgedehnte alte Maya-Stadt auf der Halbinsel Yucatán in Mexiko, die für ihre architektonische und astronomische Bedeutung bekannt ist. Beherrscht wird die Anlage von der Pyramide El Castillo, die auch als Kukulcán-Tempel bekannt ist, sowie von zahlreichen Bauwerken, die eine Mischung aus Maya- und toltekischen Einflüssen widerspiegeln, wie z. B. der Große Ballspielplatz und der Tempel der Krieger. Als UNESCO-Weltkulturerbe und eines der neuen sieben Weltwunder zieht Chichen Itza jährlich Millionen von Besuchern an und bietet einen Einblick in die reichen kulturellen und wissenschaftlichen Errungenschaften der Maya-Zivilisation.",
     celestun:
       "Begeben Sie sich auf eine Reise nach Celestun, das für seine atemberaubenden Naturschutzgebiete und die leuchtend rosafarbenen karibischen Flamingos bekannt ist, und genießen Sie ein erfrischendes Bad und ein Mittagessen in einem malerischen Strandrestaurant. Erleben Sie die Wunder des Parque Natural del Flamenco Mexicano, ein riesiges Biosphärenreservat mit einer vielfältigen Tierwelt, darunter Meeresschildkröten und Krokodile, sowie malerische Mangroven, die man am besten per Boot erkundet. Nach einem Bad im erfrischenden Wasser können Sie sich in einem lokalen Strandrestaurant mit regionalen Köstlichkeiten verwöhnen lassen, bevor Sie sich von diesem unberührten Paradies verabschieden und nach Merida zurückkehren.",
     uxmal:
@@ -63,6 +67,8 @@ let languageContent = {
   },
   es: {
     "back-text": "Atras",
+    chichen:
+      "Chichén Itzá es una antigua ciudad maya situada en la península de Yucatán (México), famosa por su importancia arquitectónica y astronómica. Dominada por la pirámide de El Castillo, también conocida como Templo de Kukulcán, el sitio cuenta con numerosas estructuras que reflejan una mezcla de influencias mayas y toltecas, como el Gran Juego de Pelota y el Templo de los Guerreros. Patrimonio de la Humanidad por la UNESCO y una de las Siete Nuevas Maravillas del Mundo, Chichén Itzá atrae a millones de visitantes cada año, ofreciendo una visión de los ricos logros culturales y científicos de la civilización maya.",
     celestun:
       "Embárquese en un viaje a Celestún, famoso por sus impresionantes reservas ecológicas y sus flamencos caribeños de color rosa intenso, donde podrá darse un refrescante chapuzón y disfrutar de un almuerzo en un pintoresco restaurante frente al mar. Experimente las maravillas del Parque Natural del Flamenco Mexicano, una vasta reserva de la biosfera repleta de fauna diversa, como tortugas marinas y cocodrilos, así como pintorescos manglares que se exploran mejor en barco. Después de un chapuzón en las refrescantes aguas, deléitese con las delicias regionales en un restaurante local frente a la playa antes de despedirse de este prístino paraíso y regresar a Mérida.",
     uxmal:

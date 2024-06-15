@@ -905,6 +905,10 @@ a.recommendation-button-big:hover {
   #rsvp-section-text {
     font-size: 28px;
   }
+
+  .three-images {
+    margin: 7px;
+  }
 }
 
 @media (max-width: 470px) {
@@ -925,6 +929,7 @@ a.recommendation-button-big:hover {
   }
 
   .dresscode {
+    padding: 20px;
     width: 100%;
     margin: auto;
   }
@@ -963,6 +968,10 @@ a.recommendation-button-big:hover {
 @media (max-width: 380px) {
   #rsvp-section-text {
     font-size: 20px;
+  }
+
+  .three-images {
+    margin: 5px;
   }
 
   .rsvp-section .text-section {

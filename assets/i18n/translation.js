@@ -27,8 +27,6 @@ window.onload = function () {
       document.getElementById("party-time").innerHTML = partyTime;
       var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
       document.getElementById("dinner-time").innerHTML = dinnerTime;
-      var morePartyTime = cMorePartyTime.toLocaleTimeString(lang, timeOptions);
-      document.getElementById("more-party-time").innerHTML = morePartyTime;
     }
   } else {
     for (let key in languageContent["en"]) {
@@ -50,8 +48,6 @@ window.onload = function () {
       document.getElementById("party-time").innerHTML = partyTime;
       var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
       document.getElementById("dinner-time").innerHTML = dinnerTime;
-      var morePartyTime = cMorePartyTime.toLocaleTimeString(lang, timeOptions);
-      document.getElementById("more-party-time").innerHTML = morePartyTime;
     }
   }
 };
@@ -74,8 +70,6 @@ function changeLanguage(lang) {
     document.getElementById("party-time").innerHTML = partyTime;
     var dinnerTime = cDinnerTime.toLocaleTimeString(lang, timeOptions);
     document.getElementById("dinner-time").innerHTML = dinnerTime;
-    var morePartyTime = cMorePartyTime.toLocaleTimeString(lang, timeOptions);
-    document.getElementById("more-party-time").innerHTML = morePartyTime;
     document.getElementById("rsvp-form").href =
       "https://misolandnico.anrsvp.com/" + lang;
   }
@@ -84,9 +78,8 @@ function changeLanguage(lang) {
 const cCeremonyTime = new Date("2024-12-14T17:30:00");
 const cWelcomeTime = new Date("2024-12-14T19:00:00");
 const cFirstDanceTime = new Date("2024-12-14T19:30:00");
-const cPartyTime = new Date("2024-12-14T19:45:00");
-const cDinnerTime = new Date("2024-12-14T21:00:00");
-const cMorePartyTime = new Date("2024-12-14T24:00:00");
+const cPartyTime = new Date("2024-12-14T21:00:00");
+const cDinnerTime = new Date("2024-12-14T19:45:00");
 
 const optionsLong = {
   weekday: "long",
@@ -140,7 +133,6 @@ let languageContent = {
     "first-dance-text": "First Dance",
     "party-text": "Dancing! ",
     "dinner-text": "Dinner",
-    "more-party-text": "More Dancing! ",
     "ceremony-location": "Click here to open in maps",
     "hacienda-location": "Click here to open in maps",
     "dresscode-text-1": "Dresscode",
@@ -190,7 +182,6 @@ let languageContent = {
     "first-dance-text": "Erster Tanz",
     "party-text": "Lasst uns tanzen!",
     "dinner-text": "Abendessen",
-    "more-party-text": "Mehr Tanz!",
     "ceremony-location": "Hier klicken um in Maps zu öffnen",
     "hacienda-location": "Hier klicken um in Maps zu öffnen",
     "dresscode-text-1": "Dresscode",
@@ -241,7 +232,6 @@ let languageContent = {
     "first-dance-text": "Primer baile",
     "party-text": "¡Bailando!",
     "dinner-text": "Cena",
-    "more-party-text": "¡Bailando más!",
     "ceremony-location": "Haga clic aquí para abrir en mapas",
     "hacienda-location": "Haga clic aquí para abrir en mapas",
     "dresscode-text-1": "Dresscode",

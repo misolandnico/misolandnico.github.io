@@ -685,8 +685,36 @@ a.recommendation-button-big:hover {
   margin: auto;
 }
 
-#want-to-give-a-present-text {
+.want-to-give {
   width: 70%;
+  padding-top: 1rem;
+}
+
+.clabe-container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.clabe-left {
+  width: 50%;
+  margin-right: 5px;
+}
+
+.clabe-right {
+  width: 50%;
+  margin-right: 5px;
+}
+
+.clabe {
+  color: #102f82;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.clabe-2 {
+  color: #306fd9;
+  text-align: left;
 }
 
 .paypal-pic {

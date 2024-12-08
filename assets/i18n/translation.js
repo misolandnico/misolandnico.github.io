@@ -122,12 +122,6 @@ let languageContent = {
     "our-recs": "Our Recommendations",
     "rsvp-text": "Save My Spot",
     "rsvp-text-big": "Save My Spot",
-    // "trip-headline": "Want to join us on an adventure?",
-    // "trip-text":
-    //   "Join us as we plan a wild expedition into the unknown! Buckle up, thrill-seekers! Sign up for any of the following trips in the registration if you're brave enough to hop on this crazy train of adventures with us. Warning: laughter and good times guaranteed!",
-    // "mucuyche-headline": "Cenotes Hacienda Mucuyché",
-    // "mucuyche-text":
-    //   "Strap in for a guided tour that's not your average history lesson – we're turning the Hacienda's past into a blockbuster! Get ready to time-travel through the glory days of one of Yucatan's most thriving farms during the henequen era. And yes, we're not just exploring history – dive into the majesty of the cenotes 'Carlota' and 'Azul Maya.' It's not your grandma's guided tour – it's a splashy, adventurous journey through time and turquoise waters!",
     "ceremony-text": "Ceremony at Iglesia de Libano",
     "welcome-text": "Welcome cocktails at Hacienda Santa Lucía Kantoyna",
     "first-dance-text": "First Dance",
@@ -140,7 +134,19 @@ let languageContent = {
       "Formal Attire. We kindly request that gentlemen wear a tuxedo or a dark suit with a tie, avoiding light colors. Ladies are asked to wear an evening gown, avoiding white and very light colors.",
     "want-to-give-a-present-headline": "Want to give us a present?",
     "want-to-give-a-present-text":
-      "Since we need to travel back to Europe, we won't be able to carry much with us. Therefore, we would greatly appreciate it if you could transfer money directly to our PayPal account using the link below. Thanks for helping us travel light!",
+      "Since we'll be traveling back to Europe, we need to pack light and can't take much with us. In place of physical gifts, we would be incredibly grateful for a contribution to help us start this exciting new chapter.",
+    "want-to-give-a-present-text-1":
+      "You can send your gift directly to our PayPal account:",
+    "want-to-give-a-present-text-2":
+      "If PayPal isn't convenient, you're welcome to use the following bank account:",
+    "clabe-1": "CLABE:",
+    "clabe-2": "014910605283366123",
+    "account-holder-1": "account holder:",
+    "account-holder-2": "Ruby Leticia Cardenas Garcia",
+    "want-to-give-a-present-text-3":
+      "And if neither option works for you, just let us know—we'll happily arrange an alternative!",
+    "want-to-give-a-present-text-4":
+      "Thank you for your generosity and for being part of our journey—both in life and across the world!",
   },
   de: {
     "our-story-headline": "Unsere Geschichte",
@@ -171,12 +177,6 @@ let languageContent = {
     "our-recs": "Unsere Empfehlungen",
     "rsvp-text": "Jetzt anmelden",
     "rsvp-text-big": "Jetzt anmelden",
-    // "trip-headline": "Möchtest Du mit uns auf ein Abenteuer gehen?",
-    // "trip-text":
-    //   "Begleite uns bei der Planung einer wilden Expedition ins Unbekannte! Schnall dich an, Nervenkitzel-Suchende! Melde Dich in der Registrierung für eine der folgenden Fahrten an, wenn Du mutig genug bist, mit uns in diesen verrückten Abenteuerzug einzusteigen. Achtung: Lachen und gute Zeiten garantiert!",
-    // "mucuyche-headline": "Cenotes Hacienda Mucuyché",
-    // "mucuyche-text":
-    //   "Schnall Dich an für eine Führung, die keine gewöhnliche Geschichtsstunde ist - wir verwandeln die Vergangenheit der Hacienda in einen Blockbuster! Machen Dich bereit für eine Zeitreise durch die glorreichen Tage einer der florierendsten Farmen Yucatans während der Henequen-Ära. Und ja, wir erkunden nicht nur die Geschichte - tauch' mit uns in die majestätischen Cenoten „Carlota“ und „Azul Maya“. Es ist nicht die geführte Tour Deiner Oma - es ist eine spritzige, abenteuerliche Reise durch die Zeit und türkisfarbenes Wasser!",
     "ceremony-text": "Zeremonie in der Iglesia de Libano",
     "welcome-text": "Begrüßungscocktails in der Hacienda Santa Lucía Kantoyna",
     "first-dance-text": "Erster Tanz",
@@ -190,7 +190,19 @@ let languageContent = {
     "want-to-give-a-present-headline":
       "Möchtest du uns ein Geschenk überreichen?",
     "want-to-give-a-present-text":
-      "Da wir zurück nach Europa reisen müssen, werden wir nicht viel mitnehmen können. Daher wären wir dir sehr dankbar, wenn du uns Geld über den unten stehenden Link direkt auf unser PayPal-Konto überweisen könntest. Danke, dass Sie uns helfen, mit leichtem Gepäck zu reisen!",
+      "Da wir zurück nach Europa reisen werden, müssen wir mit leichtem Gepäck reisen und können nicht viel mitnehmen. Anstelle von materiellen Geschenken wären wir unglaublich dankbar für eine Spende, die uns hilft, dieses aufregende neue Kapitel zu beginnen.",
+    "want-to-give-a-present-text-1":
+      "Ihr könnt eure Spende direkt an unser PayPal-Konto senden:",
+    "want-to-give-a-present-text-2":
+      "Falls PayPal nicht möglich sein sollte, könnt ihr gerne das folgende Bankkonto verwenden:",
+    "clabe-1": "CLABE:",
+    "clabe-2": "014910605283366123",
+    "account-holder-1": "account holder:",
+    "account-holder-2": "Ruby Leticia Cardenas Garcia",
+    "want-to-give-a-present-text-3":
+      "Und wenn keine der beiden Optionen in Frage kommt, lasst es uns wissen - wir arrangieren gerne eine Alternative!",
+    "want-to-give-a-present-text-4":
+      "Vielen Dank für eure Großzügigkeit und dafür, dass ihr Teil unserer Reise seid - sowohl im Leben als auch in der Welt!",
   },
   es: {
     "our-story-headline": "Nuestra historia",
@@ -221,12 +233,6 @@ let languageContent = {
     "our-recs": "Nuestras recomendaciones",
     "rsvp-text": "Guardar mi lugar",
     "rsvp-text-big": "Guardar mi lugar",
-    // "trip-headline": "Quieres unirte a nosotros en una aventura?",
-    // "trip-text":
-    //   "¡Únase a nosotros mientras planeamos una expedición salvaje hacia lo desconocido! ¡Abróchense el cinturón, buscadores de emociones! Regístrese en cualquiera de los siguientes viajes en el registro si es lo suficientemente valiente como para subirse a este loco tren de aventuras con nosotros. Advertencia: ¡Risas y buenos momentos garantizados!",
-    // "mucuyche-headline": "Cenotes Hacienda Mucuyché",
-    // "mucuyche-text":
-    //   "Prepárese para una visita guiada que no es una lección de historia promedio: ¡estamos convirtiendo el pasado de la Hacienda en un éxito de taquilla! Prepárese para viajar en el tiempo a través de los días de gloria de una de las granjas más prósperas de Yucatán durante la era del henequén. Y sí, No solo estamos explorando la historia: sumérgete en la majestuosidad de los cenotes 'Carlota' y 'Azul Maya'. No es la visita guiada de tu abuela, ¡es un viaje lleno de aventuras a través del tiempo y aguas turquesas!",
     "ceremony-text": "Ceremonia en la Iglesia de Líbano",
     "welcome-text": "Cócteles de bienvenida en Hacienda Santa Lucía Kantoyna",
     "first-dance-text": "Primer baile",
@@ -239,6 +245,18 @@ let languageContent = {
       "Vestimenta formal. Rogamos a los caballeros que lleven esmoquin o traje oscuro con corbata, evitando los colores claros. A las damas se les pide que lleven un vestido de noche, evitando el blanco y los colores muy claros.",
     "want-to-give-a-present-headline": "¿Quieres darnos un regalo?",
     "want-to-give-a-present-text":
-      "Como tenemos que viajar de vuelta a Europa, no podremos llevar mucho con nosotros. Por lo tanto, te agradeceríamos mucho que nos transfirieras dinero directamente a nuestra cuenta de PayPal a través del siguiente enlace. ¡Gracias por ayudarnos a viajar ligeros de equipaje!",
+      "Como vamos a viajar de vuelta a Europa, tenemos que hacer la maleta ligera y no podemos llevarnos mucho. En lugar de regalos físicos, estaríamos increíblemente agradecidos por una contribución que nos ayude a empezar este nuevo y emocionante capítulo.",
+    "want-to-give-a-present-text-1":
+      "Puedes enviar tu regalo directamente a nuestra cuenta de PayPal:",
+    "want-to-give-a-present-text-2":
+      "Si PayPal no le resulta cómodo, puede utilizar la siguiente cuenta bancaria:",
+    "clabe-1": "CLABE:",
+    "clabe-2": "014910605283366123",
+    "account-holder-1": "account holder:",
+    "account-holder-2": "Ruby Leticia Cardenas Garcia",
+    "want-to-give-a-present-text-3":
+      "Y si ninguna de las dos opciones te funciona, avísanos: ¡con gusto organizaremos una alternativa!",
+    "want-to-give-a-present-text-4":
+      "Gracias por tu generosidad y por formar parte de nuestro viaje, tanto en la vida como por el mundo",
   },
 };

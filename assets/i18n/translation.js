@@ -141,7 +141,9 @@ let languageContent = {
       "If PayPal isn't convenient, you're welcome to use the following bank account:",
     "clabe-1": "CLABE:",
     "clabe-2": "014910605283366123",
-    "account-holder-1": "account holder:",
+    "bank-1": "Bank:",
+    "bank-2": "Santander",
+    "account-holder-1": "Account Holder:",
     "account-holder-2": "Ruby Leticia Cardenas Garcia",
     "want-to-give-a-present-text-3":
       "And if neither option works for you, just let us know—we'll happily arrange an alternative!",
@@ -197,7 +199,9 @@ let languageContent = {
       "Falls PayPal nicht möglich sein sollte, könnt ihr gerne das folgende Bankkonto verwenden:",
     "clabe-1": "CLABE:",
     "clabe-2": "014910605283366123",
-    "account-holder-1": "account holder:",
+    "bank-1": "Bank:",
+    "bank-2": "Santander",
+    "account-holder-1": "Kontoinhaber:",
     "account-holder-2": "Ruby Leticia Cardenas Garcia",
     "want-to-give-a-present-text-3":
       "Und wenn keine der beiden Optionen in Frage kommt, lasst es uns wissen - wir arrangieren gerne eine Alternative!",
@@ -252,7 +256,9 @@ let languageContent = {
       "Si PayPal no le resulta cómodo, puede utilizar la siguiente cuenta bancaria:",
     "clabe-1": "CLABE:",
     "clabe-2": "014910605283366123",
-    "account-holder-1": "account holder:",
+    "bank-1": "Banco:",
+    "bank-2": "Santander",
+    "account-holder-1": "Titular de la Cuenta:",
     "account-holder-2": "Ruby Leticia Cardenas Garcia",
     "want-to-give-a-present-text-3":
       "Y si ninguna de las dos opciones te funciona, avísanos: ¡con gusto organizaremos una alternativa!",
